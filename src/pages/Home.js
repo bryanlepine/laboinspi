@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
-import Body from "../components/BodyHome";
+import BodyHome from "../components/BodyHome";
 
 import '../css-styles/Home.scss';
 import '../css-styles/Main.scss';
@@ -15,7 +15,7 @@ function Home() {
       <div className="HomeWrapper">
         <Header/>
         <Hero/>
-        <Body/>
+        <BodyHome/>
       </div>
       
     </div>

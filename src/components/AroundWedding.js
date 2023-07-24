@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css-styles/AroundWedding.scss';
-import PreviewFormules from './PrewiewFormules';
+
 
 
 const AroundWedding = () => {
@@ -17,7 +17,7 @@ naturelle, élégante et romantique à travers un thème et une ambiance qui vou
             <p>Pour cela, je vous propose 3 formules adaptées à chaque besoin en tant que futurs mariés. 
 Leur point commun : elles sont 100% personnalisables, élaborées avec amour et créativité !</p>
         </div>
-        <PreviewFormules/>
+        
         
        
     </div>

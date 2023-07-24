@@ -1,85 +1,70 @@
-
-.formules-wrapper{
-flex-wrap: wrap;
-gap: 5px;
-justify-content: space-between;
-align-content: center;
-display: flex;
-width: 710px;
-margin: 0 auto;
-}
-
-.formule-element{
-border: none;
-outline: none;
-background: transparent;
-cursor: pointer;
-position: relative;
-padding: 0;
-}
-.formule-element-coach::before {
-    content: "Formule Coaching";
+/* Styles de base du bouton */
+.formules-wrapper {
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-between;
+    align-content: center;
+    display: flex;
+    width: 600px;
+    margin: 0 auto;
+  }
+  
+  .formule-element {
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    padding: 0;
+  }
+  
+  .formule-element .formule-text {
     position: absolute;
-    top: 30px; /* Ajustez cette valeur pour définir la distance entre le texte et le bouton */
-    left: 50%; /* Déplace le texte horizontalement au milieu du bouton */
-    transform: translateX(-50%); /* Centre le texte horizontalement */
-    opacity: 0; /* Le texte est invisible par défaut */
-    visibility: hidden; /* Le texte est caché par défaut */
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    visibility: hidden;
     color: #fff;
-    background-color: grey;
     padding: 5px 10px;
     border-radius: 4px;
-    font-size: 25px;
-    white-space: nowrap; /* Empêche le texte de se retourner sur une nouvelle ligne */
+    font-size: 20px;
+    width: 200px;
+    white-space: nowrap;
   }
-
-    .formule-element-prepare::before {
-        content: "Formule préparatif";
-        position: absolute;
-        top: 30px; /* Ajustez cette valeur pour définir la distance entre le texte et le bouton */
-        left: 50%; /* Déplace le texte horizontalement au milieu du bouton */
-        transform: translateX(-50%); /* Centre le texte horizontalement */
-        opacity: 0; /* Le texte est invisible par défaut */
-        visibility: hidden; /* Le texte est caché par défaut */
-        color: #fff;
-        background-color: grey;
-        padding: 5px 10px;
-        border-radius: 4px;
-        font-size: 25px;
-        white-space: nowrap; /* Empêche le texte de se retourner sur une nouvelle ligne */
-      }
-        .formule-element-all::before {
-            content: "Formule all-inclusive";
-            position: absolute;
-            top: 30px; /* Ajustez cette valeur pour définir la distance entre le texte et le bouton */
-            left: 50%; /* Déplace le texte horizontalement au milieu du bouton */
-            transform: translateX(-50%); /* Centre le texte horizontalement */
-            opacity: 0; /* Le texte est invisible par défaut */
-            visibility: hidden; /* Le texte est caché par défaut */
-            color: #fff;
-            background-color: grey;
-            padding: 5px 10px;
-            border-radius: 4px;
-            font-size: 25px;
-            white-space: nowrap; /* Empêche le texte de se retourner sur une nouvelle ligne */
-          }
-          .formule-element:hover::before {
-            opacity: 1; /* Rend le texte visible */
-            visibility: visible; /* Affiche le texte */
-          }
-
-.formule-coach{
-width: 300px;
-height: 350px;
-object-fit: cover;
-}
-.formule-prepare{
-    width: 400px;
-    height: 350px;
+  
+  .formule-element:hover .formule-text {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .formule-element::before {
+    /* Vous pouvez ajouter des styles pour le bouton ici, si nécessaire */
+  }
+  
+  .formule-element:hover::before {
+    /* Vous pouvez ajouter des styles pour le bouton en hover ici, si nécessaire */
+  }
+  
+  /* Réglage de la luminosité de l'image lors du survol */
+  .formule-coach{
+    width: 250px;
+    height: 300px;
     object-fit: cover;
-}
-.formule-all{
-    width: 710px;
+  }
+  .formule-prepare{
+    width: 340px;
+    height: 300px;
+    object-fit: cover;
+  }
+  .formule-all {
+    width: 600px;
     height: 250px;
     object-fit: cover;
+    
+  }
+  .formule-element:hover .formule-coach,
+.formule-element:hover .formule-prepare,
+.formule-element:hover .formule-all {
+  filter: brightness(0.5); /* Ajustez la valeur entre 0 et 1 pour changer la luminosité (0.8 = 80% de la luminosité) */
 }

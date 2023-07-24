@@ -1,0 +1,67 @@
+
+
+.inspiration-wedding {
+    text-align: center;
+  }
+  
+  .inspiration-wedding h2 {
+    font-size: 60px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  
+  .inspiration-wedding h3 {
+    font-size: 30px;
+    font-weight: 300;
+    margin: 0;
+  }
+  .inspiration-wedding p {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 40px auto;
+    width: 1000px;
+  }
+  
+ .container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+  }
+  
+  .image-container {
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+  }
+  
+  .service-description h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .service-description ul {
+    list-style-type: disc;
+    text-align: left;
+    
+    margin-bottom: 20px;
+    margin-top: 40px;
+    list-style: none;
+    font-size: 20px;
+  }
+  .service-description li {
+margin-bottom: 10px;
+list-style: none;
+  }
+
+  .icon {
+    color: green; /* Couleur de l'icône */
+    margin-right: 10px;
+  }
+  
+  .service-description p {
+    font-size: 20px;
+    width: 100%;
+  }
+  .service-description{
+    width: 600px;
+  }
