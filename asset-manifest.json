@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/laboinspi/static/css/main.34eff8a7.css",
-    "main.js": "/laboinspi/static/js/main.b84b54f9.js",
+    "main.css": "/laboinspi/static/css/main.4dc2495e.css",
+    "main.js": "/laboinspi/static/js/main.28698a8d.js",
     "static/media/Cocktailshootingdolcevita-sarahduguephotographe85.jpeg": "/laboinspi/static/media/Cocktailshootingdolcevita-sarahduguephotographe85.dc6cfbabe0a0ebdf6e3b.jpeg",
     "static/media/salleshootingdolcevita-sarahduguephotographe4.jpeg": "/laboinspi/static/media/salleshootingdolcevita-sarahduguephotographe4.b828c3fff8f97054a6d3.jpeg",
     "static/media/image2.jpeg": "/laboinspi/static/media/image2.990eb322fc0a61b28d22.jpeg",
@@ -19,11 +19,11 @@
     "static/media/slick.woff": "/laboinspi/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/laboinspi/index.html",
     "static/media/Separateur.svg": "/laboinspi/static/media/Separateur.a7e6da49846da559e259c1b54310ccb2.svg",
-    "main.34eff8a7.css.map": "/laboinspi/static/css/main.34eff8a7.css.map",
-    "main.b84b54f9.js.map": "/laboinspi/static/js/main.b84b54f9.js.map"
+    "main.4dc2495e.css.map": "/laboinspi/static/css/main.4dc2495e.css.map",
+    "main.28698a8d.js.map": "/laboinspi/static/js/main.28698a8d.js.map"
   },
   "entrypoints": [
-    "static/css/main.34eff8a7.css",
-    "static/js/main.b84b54f9.js"
+    "static/css/main.4dc2495e.css",
+    "static/js/main.28698a8d.js"
   ]
 }
