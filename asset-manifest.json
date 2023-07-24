@@ -1,11 +1,14 @@
 {
   "files": {
-    "main.css": "/laboinspi/static/css/main.f574fceb.css",
-    "main.js": "/laboinspi/static/js/main.4ce97c4a.js",
+    "main.css": "/laboinspi/static/css/main.34eff8a7.css",
+    "main.js": "/laboinspi/static/js/main.b84b54f9.js",
+    "static/media/Cocktailshootingdolcevita-sarahduguephotographe85.jpeg": "/laboinspi/static/media/Cocktailshootingdolcevita-sarahduguephotographe85.dc6cfbabe0a0ebdf6e3b.jpeg",
     "static/media/salleshootingdolcevita-sarahduguephotographe4.jpeg": "/laboinspi/static/media/salleshootingdolcevita-sarahduguephotographe4.b828c3fff8f97054a6d3.jpeg",
     "static/media/image2.jpeg": "/laboinspi/static/media/image2.990eb322fc0a61b28d22.jpeg",
     "static/media/image1.jpeg": "/laboinspi/static/media/image1.087474006c7ecf0f5aed.jpeg",
+    "static/media/salleshootingdolcevita-sarahduguephotographe160.jpeg": "/laboinspi/static/media/salleshootingdolcevita-sarahduguephotographe160.2edf2c0fb7a9b60898c4.jpeg",
     "static/media/image3.jpeg": "/laboinspi/static/media/image3.3bf0726bc9132289bca5.jpeg",
+    "static/media/salleshootingdolcevita-sarahduguephotographe89.jpeg": "/laboinspi/static/media/salleshootingdolcevita-sarahduguephotographe89.23154eceda94a61e2f0e.jpeg",
     "static/media/Marine_weddingdesigner_loireatlatantique.jpg": "/laboinspi/static/media/Marine_weddingdesigner_loireatlatantique.6a60b165f92f144bc365.jpg",
     "static/media/icone_pinterest.png": "/laboinspi/static/media/icone_pinterest.5b46dcc743ba6a36146b.png",
     "static/media/icone_instagram.png": "/laboinspi/static/media/icone_instagram.751f4850783c9347a5a8.png",
@@ -16,11 +19,11 @@
     "static/media/slick.woff": "/laboinspi/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/laboinspi/index.html",
     "static/media/Separateur.svg": "/laboinspi/static/media/Separateur.a7e6da49846da559e259c1b54310ccb2.svg",
-    "main.f574fceb.css.map": "/laboinspi/static/css/main.f574fceb.css.map",
-    "main.4ce97c4a.js.map": "/laboinspi/static/js/main.4ce97c4a.js.map"
+    "main.34eff8a7.css.map": "/laboinspi/static/css/main.34eff8a7.css.map",
+    "main.b84b54f9.js.map": "/laboinspi/static/js/main.b84b54f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.f574fceb.css",
-    "static/js/main.4ce97c4a.js"
+    "static/css/main.34eff8a7.css",
+    "static/js/main.b84b54f9.js"
   ]
 }
