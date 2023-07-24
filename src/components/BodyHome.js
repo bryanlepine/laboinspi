@@ -5,6 +5,7 @@ import MarineBio from './MarineBio';
 import WeddingDesigner from './WeddingDesigner';
 import Title from './Title';
 import FindMe from './FindMe';
+import AroundWedding from './AroundWedding.js';
 
 
 
@@ -17,6 +18,7 @@ const Body = () => {
             <Title/>
             <MarineBio/> 
             <WeddingDesigner/>
+            <AroundWedding/>
             <FindMe/>
             
         

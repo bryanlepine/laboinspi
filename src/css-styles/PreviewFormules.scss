@@ -1,0 +1,85 @@
+
+.formules-wrapper{
+flex-wrap: wrap;
+gap: 5px;
+justify-content: space-between;
+align-content: center;
+display: flex;
+width: 710px;
+margin: 0 auto;
+}
+
+.formule-element{
+border: none;
+outline: none;
+background: transparent;
+cursor: pointer;
+position: relative;
+padding: 0;
+}
+.formule-element-coach::before {
+    content: "Formule Coaching";
+    position: absolute;
+    top: 30px; /* Ajustez cette valeur pour définir la distance entre le texte et le bouton */
+    left: 50%; /* Déplace le texte horizontalement au milieu du bouton */
+    transform: translateX(-50%); /* Centre le texte horizontalement */
+    opacity: 0; /* Le texte est invisible par défaut */
+    visibility: hidden; /* Le texte est caché par défaut */
+    color: #fff;
+    background-color: grey;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 25px;
+    white-space: nowrap; /* Empêche le texte de se retourner sur une nouvelle ligne */
+  }
+
+    .formule-element-prepare::before {
+        content: "Formule préparatif";
+        position: absolute;
+        top: 30px; /* Ajustez cette valeur pour définir la distance entre le texte et le bouton */
+        left: 50%; /* Déplace le texte horizontalement au milieu du bouton */
+        transform: translateX(-50%); /* Centre le texte horizontalement */
+        opacity: 0; /* Le texte est invisible par défaut */
+        visibility: hidden; /* Le texte est caché par défaut */
+        color: #fff;
+        background-color: grey;
+        padding: 5px 10px;
+        border-radius: 4px;
+        font-size: 25px;
+        white-space: nowrap; /* Empêche le texte de se retourner sur une nouvelle ligne */
+      }
+        .formule-element-all::before {
+            content: "Formule all-inclusive";
+            position: absolute;
+            top: 30px; /* Ajustez cette valeur pour définir la distance entre le texte et le bouton */
+            left: 50%; /* Déplace le texte horizontalement au milieu du bouton */
+            transform: translateX(-50%); /* Centre le texte horizontalement */
+            opacity: 0; /* Le texte est invisible par défaut */
+            visibility: hidden; /* Le texte est caché par défaut */
+            color: #fff;
+            background-color: grey;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 25px;
+            white-space: nowrap; /* Empêche le texte de se retourner sur une nouvelle ligne */
+          }
+          .formule-element:hover::before {
+            opacity: 1; /* Rend le texte visible */
+            visibility: visible; /* Affiche le texte */
+          }
+
+.formule-coach{
+width: 300px;
+height: 350px;
+object-fit: cover;
+}
+.formule-prepare{
+    width: 400px;
+    height: 350px;
+    object-fit: cover;
+}
+.formule-all{
+    width: 710px;
+    height: 250px;
+    object-fit: cover;
+}
