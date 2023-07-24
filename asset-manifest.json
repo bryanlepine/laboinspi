@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/laboinspi/static/css/main.f574fceb.css",
-    "main.js": "/laboinspi/static/js/main.e43f8ee6.js",
+    "main.js": "/laboinspi/static/js/main.4ce97c4a.js",
     "static/media/salleshootingdolcevita-sarahduguephotographe4.jpeg": "/laboinspi/static/media/salleshootingdolcevita-sarahduguephotographe4.b828c3fff8f97054a6d3.jpeg",
     "static/media/image2.jpeg": "/laboinspi/static/media/image2.990eb322fc0a61b28d22.jpeg",
     "static/media/image1.jpeg": "/laboinspi/static/media/image1.087474006c7ecf0f5aed.jpeg",
@@ -17,10 +17,10 @@
     "index.html": "/laboinspi/index.html",
     "static/media/Separateur.svg": "/laboinspi/static/media/Separateur.a7e6da49846da559e259c1b54310ccb2.svg",
     "main.f574fceb.css.map": "/laboinspi/static/css/main.f574fceb.css.map",
-    "main.e43f8ee6.js.map": "/laboinspi/static/js/main.e43f8ee6.js.map"
+    "main.4ce97c4a.js.map": "/laboinspi/static/js/main.4ce97c4a.js.map"
   },
   "entrypoints": [
     "static/css/main.f574fceb.css",
-    "static/js/main.e43f8ee6.js"
+    "static/js/main.4ce97c4a.js"
   ]
 }
