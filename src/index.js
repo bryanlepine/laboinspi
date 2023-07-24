@@ -9,7 +9,7 @@ createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/laboinspi" element={<Home />} />
         <Route element={<Navigate to="/" />} /> {/* Route par défaut, redirige vers la page d'accueil */}
       </Routes>
     </Router>
