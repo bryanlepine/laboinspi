@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/laboinspi/static/css/main.f574fceb.css",
+    "main.js": "/laboinspi/static/js/main.e43f8ee6.js",
+    "static/media/salleshootingdolcevita-sarahduguephotographe4.jpeg": "/laboinspi/static/media/salleshootingdolcevita-sarahduguephotographe4.b828c3fff8f97054a6d3.jpeg",
+    "static/media/image2.jpeg": "/laboinspi/static/media/image2.990eb322fc0a61b28d22.jpeg",
+    "static/media/image1.jpeg": "/laboinspi/static/media/image1.087474006c7ecf0f5aed.jpeg",
+    "static/media/image3.jpeg": "/laboinspi/static/media/image3.3bf0726bc9132289bca5.jpeg",
+    "static/media/Marine_weddingdesigner_loireatlatantique.jpg": "/laboinspi/static/media/Marine_weddingdesigner_loireatlatantique.6a60b165f92f144bc365.jpg",
+    "static/media/icone_pinterest.png": "/laboinspi/static/media/icone_pinterest.5b46dcc743ba6a36146b.png",
+    "static/media/icone_instagram.png": "/laboinspi/static/media/icone_instagram.751f4850783c9347a5a8.png",
+    "static/media/logo_laboinspi.png": "/laboinspi/static/media/logo_laboinspi.5bf5f831db93a0618a17.png",
+    "static/media/slick.svg": "/laboinspi/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/laboinspi/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/laboinspi/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/laboinspi/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/laboinspi/index.html",
+    "static/media/Separateur.svg": "/laboinspi/static/media/Separateur.a7e6da49846da559e259c1b54310ccb2.svg",
+    "main.f574fceb.css.map": "/laboinspi/static/css/main.f574fceb.css.map",
+    "main.e43f8ee6.js.map": "/laboinspi/static/js/main.e43f8ee6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f574fceb.css",
+    "static/js/main.e43f8ee6.js"
+  ]
+}
