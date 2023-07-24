@@ -1,0 +1,30 @@
+.title-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+    
+
+    .title-main{
+        font-size: 96px;
+        width: 100%;
+        margin: 0;
+        line-height: 98%;
+        font-family: junge;
+        font-weight: 400;
+        color: #50705B;
+        
+    }
+    .title-second {
+        font-size: 40px;
+        font-weight: 300;
+        margin: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .separator{
+        width: 20%;
+       
+    }
+}

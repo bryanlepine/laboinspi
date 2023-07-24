@@ -1,0 +1,36 @@
+.portrait{
+    width: 25%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.bio-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+ .texte-bio{
+    width: 600px;
+    line-height: 200%;
+    font-size: 18px;
+ }
+ .colored-text {
+    color: white; 
+    position: relative;
+    overflow: hidden; 
+  }
+  
+  .colored-text::before {
+    content: '';
+    position: absolute;
+    top: -5px; 
+    left: -3px; 
+    width: calc(100% + 6px); 
+    height: calc(100% + 10px);
+    background-color: #EEAC8E; 
+    filter: blur(2px);
+    z-index: -1; 
+  }
+  
+
+ 

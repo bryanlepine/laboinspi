@@ -1,0 +1,26 @@
+
+.back-to-top {
+  position: fixed;
+  top: 50px;
+  left: 200px;
+  width: 40px;
+  height: 40px;
+  
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.back-to-top img {
+  width: 80px;
+  height: 80px;
+}
+
+.chevron-up {
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 10px solid grey;
+  margin: 5px;
+}

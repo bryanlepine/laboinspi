@@ -1,0 +1,29 @@
+.photo-table{
+    width: 30%;
+    height: 500px;
+    object-fit: cover;
+}
+.designer-wrapper{
+    .element-title{
+        font-size: 60px;
+        text-align: center;
+        font-weight: 300;
+    }
+    .designer-container{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    
+    .designer-text{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    padding-right: 50px;
+    font-size: 18px;
+}
+}
+    
+}
+

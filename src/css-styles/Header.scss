@@ -1,0 +1,33 @@
+@import 'Main';
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    .Laboinspi-logo{
+        width: 25%;
+    }
+    .nav-bar {
+        display: flex;
+        list-style-type: none;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        max-width: 100%;
+        gap: 1em;
+
+        li>a {
+            text-decoration: none;
+            color: $primary-color;
+        }
+    }
+}
+
+.insta-icone{
+    width: 45px;
+}
+.pinterest-icone{
+    width: 35px;
+}

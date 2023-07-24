@@ -1,0 +1,13 @@
+.HomeWrapper {
+  width: 1240px;
+  display: flex;
+  flex-direction: column;
+  
+  gap: 5px;
+  margin: 10px auto;
+
+  .Home {
+    margin: 0 auto;
+    width: 1440px;
+  }
+}
