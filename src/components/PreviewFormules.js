@@ -1,8 +1,8 @@
 import React from 'react';
 import '../css-styles/PreviewFormules.scss';
-import Image1 from '../images/formules/salleshootingdolcevita-sarahduguephotographe89.jpeg';
-import Image2 from '../images/formules/Cocktailshootingdolcevita-sarahduguephotographe85.jpeg';
-import Image3 from '../images/formules/salleshootingdolcevita-sarahduguephotographe160.jpeg';
+import Image1 from '../images/formules/salleshootingdolcevita-sarahduguephotographe89.webp';
+import Image2 from '../images/formules/Cocktailshootingdolcevita-sarahduguephotographe85.webp';
+import Image3 from '../images/formules/salleshootingdolcevita-sarahduguephotographe160.webp';
 
 const PreviewFormules = ({ scrollToSection }) => {
     return (

@@ -25,8 +25,6 @@ profitez pleinement de votre grand jour sans stress et garder un peu de surprise
       <div className="all-wedding-container">
         <img className="image-container" src={ImagePrepare} alt="Image coaching mariage" />
         <div className="service-description">
-          <p> Avec cette formule, je m’occupe de tous les préparatifs en amont pour vous éviter des mois de travail et de stress et je vous transmets mon savoir pour bien gérer les derniers préparatifs sur place.
-      </p>
         <h3>Descriptif complet du service :</h3>
         <h4>LA CONCEPTION</h4>
         <ul>

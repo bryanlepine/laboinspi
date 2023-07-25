@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from "../images/Marine_weddingdesigner_loireatlatantique.jpg";
+import Image from "../images/Marine_weddingdesigner_loireatlatantique.webp";
 import '../css-styles/MarineBio.scss';
 
 const MarineBio = () => {

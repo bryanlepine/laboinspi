@@ -5,11 +5,11 @@ import 'slick-carousel/slick/slick-theme.css';
 import '../css-styles/Hero.scss';
 import { PrevArrow, NextArrow } from './SliderArrows'; // Assurez-vous de spécifier le bon chemin vers le fichier SliderArrows.js
 
-import Image1 from '../images/slider/image1.jpeg';
-import Image2 from '../images/slider/image2.jpeg';
-import Image3 from '../images/slider/image3.jpeg';
-import Image4 from '../images/slider/image4.jpeg';
-import Image5 from '../images/slider/image3.jpeg';
+import Image1 from '../images/slider/image1.webp';
+import Image2 from '../images/slider/image2.webp';
+import Image3 from '../images/slider/image3.webp';
+import Image4 from '../images/slider/image4.webp';
+
 
 
 const Hero = () => {
@@ -29,16 +29,16 @@ const Hero = () => {
     <div className='slider-wrapper'>
       <Slider {...settings}>
         <div>
-          <img src={Image1} className="slider-photographie" alt="Image 1" />
+        <img src={Image1} className="slider-photographie" alt="photographie-couple-mariage-dolcevita" loading="eager" />
         </div>
         <div>
-          <img src={Image2} className="slider-photographie" alt="Image 2" />
+          <img src={Image2} className="slider-photographie" alt="photographie-table-décoration-mariage" />
         </div>
         <div>
-          <img src={Image3} className="slider-photographie" alt="Image 3" />
+          <img src={Image3} className="slider-photographie" alt="photographie-couple-mariage" />
         </div>
         <div>
-          <img src={Image4} className="slider-photographie" alt="Image 4" />
+          <img src={Image4} className="slider-photographie" alt="photographie-table-décoration-mariage" />
         </div>
       </Slider>
     </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from '../images/salleshootingdolcevita-sarahduguephotographe4.jpeg'
+import Image from '../images/salleshootingdolcevita-sarahduguephotographe4.webp'
 import '../css-styles/WeddingDesigner.scss';
 
 

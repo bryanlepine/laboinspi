@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Image from '../images/icone/icone-labo.png'; // Importez l'image icone-labo.png
+import Image from '../images/icone/icone-labo.webp';
 import '../css-styles/BackToTopButton.scss';
 
 const BackToTopButton = () => {

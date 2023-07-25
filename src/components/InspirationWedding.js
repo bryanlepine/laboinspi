@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css-styles/InspirationWedding.scss';
-import ImageCoaching from '../images/formules/salleshootingdolcevita-sarahduguephotographe89.jpeg';
+import ImageCoaching from '../images/formules/salleshootingdolcevita-sarahduguephotographe89.webp';
 import ImageGalerie1 from '../images/formules/Décoration_cake.jpeg';
 import ImageGalerie2 from '../images/formules/Décoration_dolcevita.jpeg';
 import ImageGalerie3 from '../images/formules/Décoration_focus_table.jpeg';
