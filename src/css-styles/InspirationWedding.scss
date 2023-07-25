@@ -1,21 +1,37 @@
 
 
 .inspiration-wedding {
-    text-align: center;
-  }
+  text-align: center;
+}
   
   .inspiration-wedding h2 {
     font-size: 60px;
     font-weight: 300;
     margin-bottom: 10px;
   }
-  
-  .inspiration-wedding h3 {
+  .inspiration-title-wrapper{
+    position: relative;
+  }
+  .formule-title {
     font-size: 30px;
     font-weight: 300;
     margin: 0;
+    color: #F4F4F4;
   }
-  .inspiration-wedding p {
+
+  .formule-title-container::before {
+    content: "";
+    position: absolute;
+    top: 80px;
+    left: 400px;
+    right: 400px;
+    bottom: 0px;
+    background-color: #EEAC8E;
+    filter: blur(5px); /* Ajoute le filtre de flou */
+    z-index: -1;
+  }
+
+  .inspiration-wedding > p {
     font-size: 20px;
     font-weight: 300;
     margin: 40px auto;
@@ -58,10 +74,28 @@ list-style: none;
     margin-right: 10px;
   }
   
-  .service-description p {
+  .service-description-text{
     font-size: 20px;
     width: 100%;
+    margin: 30px;
   }
   .service-description{
     width: 600px;
+  }
+
+  .descriptif-complet{
+    background-color: #F4F4F4;
+    padding: 10px;
+  }
+  .image-galerie {
+    width: 270px;
+    height: 350px;
+    object-fit: cover;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Ajoute une ombre légère */
+  }
+  .image-galerie-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    width: 1200px;
   }

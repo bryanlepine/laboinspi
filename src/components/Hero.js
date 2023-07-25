@@ -8,6 +8,9 @@ import { PrevArrow, NextArrow } from './SliderArrows'; // Assurez-vous de spéci
 import Image1 from '../images/slider/image1.jpeg';
 import Image2 from '../images/slider/image2.jpeg';
 import Image3 from '../images/slider/image3.jpeg';
+import Image4 from '../images/slider/image4.jpeg';
+import Image5 from '../images/slider/image3.jpeg';
+
 
 const Hero = () => {
   const settings = {
@@ -33,6 +36,9 @@ const Hero = () => {
         </div>
         <div>
           <img src={Image3} className="slider-photographie" alt="Image 3" />
+        </div>
+        <div>
+          <img src={Image4} className="slider-photographie" alt="Image 4" />
         </div>
       </Slider>
     </div>

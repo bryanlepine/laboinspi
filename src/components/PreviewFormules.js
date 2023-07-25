@@ -13,11 +13,11 @@ const PreviewFormules = ({ scrollToSection }) => {
                 <span className="formule-text">Formule Coaching</span>
             </button>
 
-            <button className='formule-element'>
+            <button onClick={() => scrollToSection('prepare-wedding')} className='formule-element'>
                 <img src={Image2} className="formule-prepare" alt="cocktail-photographie-design" />
                 <span className="formule-text">Formule Préparatif</span>
             </button>
-            <button className='formule-element'>
+            <button onClick={() => scrollToSection('all-wedding')} className='formule-element'>
                 <img src={Image3} className="formule-all" alt="couple-photographie-wedding" />
                 <span className="formule-text">Formule All-inclusive</span>
             </button>

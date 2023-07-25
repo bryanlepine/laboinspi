@@ -1,0 +1,65 @@
+
+
+.all-wedding {
+    text-align: center;
+  }
+  
+  .all-wedding h2 {
+    font-size: 60px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  
+  .all-wedding h3 {
+    font-size: 30px;
+    font-weight: 300;
+    margin: 0;
+  }
+
+.all-text{
+  font-size: 20px;
+}
+  
+ .all-wedding-container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+  }
+  
+  .image-container {
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+  }
+  
+  .service-description h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .service-description h4 {
+    font-size: 20px;
+    margin: 20px 0px 0px 0px;
+  }
+  
+  .service-description ul {
+    list-style-type: disc;
+    text-align: left;
+    
+    margin-bottom: 20px;
+    margin-top: 20px;
+    list-style: none;
+    font-size: 20px;
+  }
+  .service-description li {
+margin-bottom: 10px;
+list-style: none;
+  }
+
+  .icon {
+    color: green; /* Couleur de l'icône */
+    margin-right: 10px;
+  }
+  
+  .service-description{
+    width: 600px;
+  }

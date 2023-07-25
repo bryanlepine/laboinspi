@@ -31,7 +31,7 @@ const MyMapComponent = () => {
           <Circle 
             key={city}
             center={citymap[city].center} 
-            radius={30000} 
+            radius={20000} 
             options={{ 
               strokeColor: "#D9D9D9",
               strokeOpacity: 0.8,

@@ -7,9 +7,12 @@ import FindMe from './FindMe';
 import AroundWedding from './AroundWedding';
 import InspirationWedding from './InspirationWedding';
 import PreviewFormules from './PreviewFormules';
+import PrepareWedding from './PrepareWedding';
+import AllWedding from './AllWedding';
 
 const BodyHome = () => {
     const inspirationWeddingRef = useRef();
+    const prepareWeddingRef = useRef();
 
     const scrollToSection = (sectionId) => {
         const section = document.getElementById(sectionId);
@@ -26,6 +29,8 @@ const BodyHome = () => {
             <AroundWedding />
             <PreviewFormules scrollToSection={scrollToSection} />
             <InspirationWedding ref={inspirationWeddingRef} />
+            <PrepareWedding ref={prepareWeddingRef} />
+            <AllWedding ref={prepareWeddingRef} />
             <FindMe />
         </div>
     );
