@@ -8,12 +8,14 @@
     font-size: 60px;
     font-weight: 300;
     margin-bottom: 10px;
+    color: #50705B;
   }
   
-  .all-wedding h3 {
-    font-size: 30px;
+  .service-description h3 {
+    font-size: 20px;
     font-weight: 300;
     margin: 0;
+    margin-bottom: 30px;
   }
 
 .all-text{
@@ -26,32 +28,27 @@
     justify-content: space-evenly;
   }
   
-  .image-container {
+  .image-element {
     width: 500px;
-    height: 600px;
+    height: 730px;
     object-fit: cover;
   }
-  
-  .service-description h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
+  .image-element2{
+    width: 290px;
+    height: 300px;
+    object-fit: cover;
+    margin: 10px 0px;
   }
-  .service-description h4 {
-    font-size: 20px;
-    margin: 20px 0px 0px 0px;
-  }
-  
-  .service-description ul {
-    list-style-type: disc;
-    text-align: left;
+  .image-wrapper-type{
+    display: flex;
     
-    margin-bottom: 20px;
-    margin-top: 20px;
-    list-style: none;
-    font-size: 20px;
+    width: 1200px;
+    justify-content: space-between;
   }
+  
+  
   .service-description li {
-margin-bottom: 10px;
+margin-bottom: 12px;
 list-style: none;
   }
 
@@ -62,4 +59,59 @@ list-style: none;
   
   .service-description{
     width: 600px;
+  }
+
+  .name-vertical-allWedding{
+    writing-mode: vertical-rl; /* Cette propriété spécifie l'écriture verticale de droite à gauche */
+    transform: rotate(180deg);
+    letter-spacing: 0.4em;
+    height: 200px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0;
+    font-size: 12px;
+  }
+  .nameVertical-allWedding-listWrapper ul {
+    text-align: left;
+    padding: 0px 0px 0px 20px ;
+    list-style: none;
+    margin: 0;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .nameVertical-allWedding-listWrapper{
+    display: flex;
+    height: auto; 
+  }
+
+  .nameVertical3-allWedding-listWrapper{
+    display: flex;
+    height: auto; 
+  }
+  .nameVertical3-allWedding-listWrapper ul {
+    text-align: left;
+    padding: 0px 0px 0px 20px ;
+    list-style: none;
+    margin: 0;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .name-vertical3-allWedding{
+    writing-mode: vertical-rl; /* Cette propriété spécifie l'écriture verticale de droite à gauche */
+    transform: rotate(180deg);
+    letter-spacing: 0.4em;
+    height: 80px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0;
+    font-size: 12px;
   }

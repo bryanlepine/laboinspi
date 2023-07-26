@@ -8,6 +8,7 @@
     font-size: 60px;
     font-weight: 300;
     margin-bottom: 10px;
+    color: #50705B;
   }
   .inspiration-title-wrapper{
     position: relative;
@@ -46,7 +47,7 @@
   
   .image-container {
     width: 500px;
-    height: 600px;
+    height: 710px;
     object-fit: cover;
   }
   
@@ -55,15 +56,18 @@
     margin-bottom: 10px;
   }
   
-  .service-description ul {
+  .descriptif-complet-inspiration ul {
     list-style-type: disc;
     text-align: left;
-    
+    font-size: 20px;
     margin-bottom: 20px;
     margin-top: 40px;
     list-style: none;
-    font-size: 20px;
   }
+  .descriptif-complet-inspiration p {
+font-size: 20px;
+  }
+
   .service-description li {
 margin-bottom: 10px;
 list-style: none;
@@ -78,18 +82,24 @@ list-style: none;
     font-size: 20px;
     width: 100%;
     margin: 30px;
+    line-height: 200%;
   }
   .service-description{
     width: 600px;
   }
 
-  .descriptif-complet{
+  .descriptif-complet-inspiration{
     background-color: #F4F4F4;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 510px;
   }
   .image-galerie {
     width: 270px;
-    height: 350px;
+    height: 300px;
     object-fit: cover;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Ajoute une ombre légère */
   }

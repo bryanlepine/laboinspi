@@ -2,10 +2,12 @@ import React from "react";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import BodyHome from "../components/BodyHome";
+import Footer from "../components/Footer"
 
 import '../css-styles/Home.scss';
 import '../css-styles/Main.scss';
 import '../css-styles/Responsive.scss';
+import '../css-styles/Footer.scss';
 
 function Home() {
 
@@ -17,6 +19,10 @@ function Home() {
         <Hero/>
         <BodyHome/>
       </div>
+      <div className="footerWrapper">
+        <Footer/>
+      </div>
+      
       
     </div>
   );

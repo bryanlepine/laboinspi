@@ -3,7 +3,7 @@ import '../css-styles/BodyHome.scss';
 import MarineBio from './MarineBio';
 import WeddingDesigner from './WeddingDesigner';
 import Title from './Title';
-import FindMe from './FindMe';
+
 import AroundWedding from './AroundWedding';
 import InspirationWedding from './InspirationWedding';
 import PreviewFormules from './PreviewFormules';
@@ -26,12 +26,19 @@ const BodyHome = () => {
             <Title />
             <MarineBio />
             <WeddingDesigner />
+            <div className='AroundWedding-titles'>
+                <h2 className='AroundWedding-title-main'>Personnalisez votre décoration de mariage</h2>
+                <p className='AroundWedding-title-second'>Mes formules, conseils et accompagnement pour une décoration de mariage réussie</p>
+            </div>
+            <div className='aroundWedding-previewFormules-container'>
             <AroundWedding />
-            <PreviewFormules scrollToSection={scrollToSection} />
+            <PreviewFormules scrollToSection={scrollToSection} /> 
+            </div>
+            
             <InspirationWedding ref={inspirationWeddingRef} />
             <PrepareWedding ref={prepareWeddingRef} />
             <AllWedding ref={prepareWeddingRef} />
-            <FindMe />
+            
         </div>
     );
 }

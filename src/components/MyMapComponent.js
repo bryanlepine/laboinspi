@@ -8,8 +8,8 @@ const citymap = {
 };
 
 const containerStyle = {
-  width: '600px',
-  height: '400px'
+  width: '350px',
+  height: '250px'
 };
 
 const center = {

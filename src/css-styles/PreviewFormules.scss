@@ -31,6 +31,7 @@
     font-size: 20px;
     width: 200px;
     white-space: nowrap;
+    font-style: italic;
   }
   
   .formule-element:hover .formule-text {
@@ -49,17 +50,17 @@
   /* Réglage de la luminosité de l'image lors du survol */
   .formule-coach{
     width: 250px;
-    height: 300px;
+    height: 250px;
     object-fit: cover;
   }
   .formule-prepare{
-    width: 340px;
-    height: 300px;
+    width: 300px;
+    height: 250px;
     object-fit: cover;
   }
   .formule-all {
-    width: 600px;
-    height: 250px;
+    width: 560px;
+    height: 230px;
     object-fit: cover;
     
   }

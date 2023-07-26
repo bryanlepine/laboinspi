@@ -1,10 +1,10 @@
 import React from 'react';
 import '../css-styles/InspirationWedding.scss';
-import ImageCoaching from '../images/formules/salleshootingdolcevita-sarahduguephotographe89.webp';
-import ImageGalerie1 from '../images/formules/Décoration_cake.jpeg';
-import ImageGalerie2 from '../images/formules/Décoration_dolcevita.jpeg';
-import ImageGalerie3 from '../images/formules/Décoration_focus_table.jpeg';
-import ImageGalerie4 from '../images/formules/Décoration_biscuits.jpeg';
+import ImageCoaching from '../images/formules/Décoration-table-coaching.webp';
+import ImageGalerie1 from '../images/formules/Décoration_cake.webp';
+import ImageGalerie2 from '../images/formules/Décoration_dolcevita.webp';
+import ImageGalerie3 from '../images/formules/Décoration_focus_table.webp';
+import ImageGalerie4 from '../images/formules/Décoration_biscuits.webp';
 import { AiOutlineCheckCircle } from 'react-icons/ai';
 
 
@@ -28,8 +28,8 @@ const InspirationWedding = () => {
         <div className="service-description">
           <p className='service-description-text'> Avec cette formule, je vous donne les clés pour débuter dans votre projet
         et vous conseille sur la partie créative et le choix des prestataires pour une scénographie de mariage réussie !
-      </p>
-      <div className='descriptif-complet'> 
+          </p>
+      <div className='descriptif-complet-inspiration'> 
 <h3>Descriptif complet du service :</h3>
         <ul>
           <li><AiOutlineCheckCircle className="icon" /> Un RDV découverte à distance</li>

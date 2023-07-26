@@ -5,19 +5,22 @@ import MapComponent from './MapComponent';
 
 const FindMe = () => {
   return (
-    <div className="find-me-wrapper">
-      <h3 className='element-title'>Où me retrouver ?</h3>
+    
+      
       <div className='findMe-textMap-wrapper'>
+        
          <div className='findMe-text'>
-            <p>Située entre la Presqu’île Guérandaise et la Côte de Jade, je vous propose mes conseils et mon accompagnement personnalisé dans tout le département de Loire-Atlantique (44).</p>
-            <p>Mes compétences dans la scénographie de mariage n’ayant pas de frontière, je vous aiderai aussi à construire votre projet de décoration dans les départements limitrophes.</p>
+          <h3 className='element-title'>Où me retrouver ?</h3>
+            <p>Située entre la Presqu’île Guérandaise et la Côte de Jade, je vous propose mes conseils et mon accompagnement personnalisé dans tout le département de Loire-Atlantique (44) et les départements limitrophes : Morbihan (56), Île-et-Vilaine (35) et Vendée (85).
+            </p>
+            
         </div>
         
            <MyMapComponent/> 
            
         
       </div>
-    </div>
+   
   );
 }
 

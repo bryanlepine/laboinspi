@@ -3,11 +3,7 @@
 .prepare-wedding {
     text-align: center;
   }
-  .prepare-wedding p{
-  font-size:20px;
-  margin: 40px auto;
-
-  }
+ 
 
   .prepare-title-container{
     position: relative;
@@ -35,6 +31,7 @@
     font-size: 60px;
     font-weight: 300;
     margin-bottom: 10px;
+    color: #50705B;
   }
   
   .prepare-wedding h3 {
@@ -51,24 +48,42 @@
   }
   
   .prepare-image-container {
-    width: 600px;
-    height: 800px;
+    width: 550px;
+    height: 750px;
     object-fit: cover;
+  }
+  .prepare-text p{
+    font-size: 20px;
   }
   
   .service-description h3 {
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 10px;
   }
+ 
+  .name-vertical{
+    writing-mode: vertical-rl; /* Cette propriété spécifie l'écriture verticale de droite à gauche */
+    transform: rotate(180deg);
+    letter-spacing: 0.4em;
+    height: 240px;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0;
+  }
+
+  .nameVertical-listWrapper{
+    display: flex;
+    height: auto; 
+  }
   
-  .service-description ul {
-    list-style-type: disc;
+  .nameVertical-listWrapper ul {
     text-align: left;
-    
-    margin-bottom: 20px;
-    margin-top: 40px;
+    padding: 0px 0px 0px 20px ;
     list-style: none;
-    font-size: 20px;
+    margin: 0;
+    font-size: 18px;
   }
   .service-description li {
 margin-bottom: 10px;
@@ -84,9 +99,7 @@ list-style: none;
   .service-description{
     width: 600px;
   }
-  .service-description p{
-    margin: 0px 0px 40px;
-  }
+ 
 
   .descriptif-complet{
     background-color: #F4F4F4;
@@ -98,8 +111,11 @@ display: flex;
 justify-content:space-between ;
   }
   .prepare-image-galerie{
-width: 400px;
-height: 400px;
+width: 300px;
+height: 300px;
 object-fit: cover;
 margin: 10px;
   }
+
+
+

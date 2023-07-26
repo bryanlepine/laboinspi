@@ -1,0 +1,29 @@
+@import 'Main';
+
+.footer-all-container{
+    background-color: #EAEAEA;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-reserved {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  height: 209px;
+
+  .footer-reserved img {
+    max-width: 100%;
+    height: 40px;
+  }
+
+  .rights-reserved {
+    color: black;
+    font-weight: 500;
+    text-align: center;
+  }
+}

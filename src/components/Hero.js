@@ -27,18 +27,18 @@ const Hero = () => {
   
   return (
     <div className='slider-wrapper'>
-      <Slider {...settings}>
+     <Slider {...settings}>
         <div>
-        <img src={Image1} className="slider-photographie" alt="photographie-couple-mariage-dolcevita" loading="eager" />
+          <img src={Image1} className="slider-photographie" alt="photographie-couple-mariage-dolcevita" loading="eager" />
         </div>
         <div>
-          <img src={Image2} className="slider-photographie" alt="photographie-table-décoration-mariage" />
+          <img src={Image2} className="slider-photographie" alt="photographie-table-décoration-mariage" loading="lazy" />
         </div>
         <div>
-          <img src={Image3} className="slider-photographie" alt="photographie-couple-mariage" />
+          <img src={Image3} className="slider-photographie" alt="photographie-couple-mariage" loading="lazy" />
         </div>
         <div>
-          <img src={Image4} className="slider-photographie" alt="photographie-table-décoration-mariage" />
+          <img src={Image4} className="slider-photographie" alt="photographie-table-décoration-mariage" loading="lazy" />
         </div>
       </Slider>
     </div>
