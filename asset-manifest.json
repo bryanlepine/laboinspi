@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/laboinspi/static/css/main.3269a49a.css",
-    "main.js": "/laboinspi/static/js/main.176998b8.js",
+    "main.css": "/laboinspi/static/css/main.cf120e9c.css",
+    "main.js": "/laboinspi/static/js/main.6e37a7e5.js",
     "static/media/Décoration_assietes.jpeg": "/laboinspi/static/media/Décoration_assietes.2f232c525493e0fd2038.jpeg",
     "static/media/Prestataire_cocktail.webp": "/laboinspi/static/media/Prestataire_cocktail.31576d83390cedfeab9b.webp",
     "static/media/image4.webp": "/laboinspi/static/media/image4.ecde01be8b7bafa2b174.webp",
@@ -35,11 +35,11 @@
     "static/media/slick.woff": "/laboinspi/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/laboinspi/index.html",
     "static/media/Separateur.svg": "/laboinspi/static/media/Separateur.a7e6da49846da559e259c1b54310ccb2.svg",
-    "main.3269a49a.css.map": "/laboinspi/static/css/main.3269a49a.css.map",
-    "main.176998b8.js.map": "/laboinspi/static/js/main.176998b8.js.map"
+    "main.cf120e9c.css.map": "/laboinspi/static/css/main.cf120e9c.css.map",
+    "main.6e37a7e5.js.map": "/laboinspi/static/js/main.6e37a7e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.3269a49a.css",
-    "static/js/main.176998b8.js"
+    "static/css/main.cf120e9c.css",
+    "static/js/main.6e37a7e5.js"
   ]
 }
