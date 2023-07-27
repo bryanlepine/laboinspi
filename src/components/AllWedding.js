@@ -12,7 +12,7 @@ const AllWedding = () =>{
   return (
     <div id="all-wedding" className="all-wedding">
       <div className='all-title-wrapper'>
-        <h2>Votre événement Clé en Main </h2>
+        <h2>Immersion & Scénographie </h2>
         <div className='prepare-title-container'>
             <h3 className='prepare-title'>Formule « Clé en Main »»</h3>
           </div>
@@ -72,10 +72,10 @@ profitez pleinement de votre grand jour sans stress et garder un peu de surprise
             <img className="image-element2" src={Image4} alt="Image coaching mariage" />
             <img className="image-element2" src={Image5} alt="Image coaching mariage" />
           </div> 
-    <div>
+    <div className='formulaire-text'>
         <p>Aucune formule ne correspond à vos besoins ? </p>
         <p>Faites moi part de vos envies et élaborons ensemble un projet personnalisé 
-qui saura répondre à vos attentes. <span>Cliquez ici</span> </p>
+qui saura répondre à vos attentes. <br></br><span>Cliquez ici</span> </p>
     </div>
       
     </div>

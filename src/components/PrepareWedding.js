@@ -12,7 +12,7 @@ const PrepareWedding = () =>{
   return (
     <div id="prepare-wedding" className="prepare-wedding">
       <div className='prepare-title-wrapper'>
-        <h2>Coordination Harmonieuse</h2>
+        <h2>Organisation & Ambiance</h2>
           <div className='prepare-title-container'>
             <h3 className='prepare-title'>Formule « Préparatifs »</h3>
           </div>
@@ -21,7 +21,7 @@ const PrepareWedding = () =>{
         <p>
       vous souhaitez être accompagnés dans votre projet
 de décoration de mariage mais vous voulez garder la main pour l’installation de votre décoration le jour J ? 
-</p>
+        </p>
       </div>
        
       <div className="prepare-container">

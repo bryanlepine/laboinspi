@@ -12,7 +12,7 @@ const InspirationWedding = () => {
   return (
     <div id="inspiration-wedding" className="inspiration-wedding">
       <div className='inspiration-title-wrapper'>
-        <h2>Inspiration mariage</h2>
+        <h2>Inspiration & Déco</h2>
         <div className='formule-title-container'>
           <h3 className='formule-title'>Formule « Coaching »</h3>
         </div>

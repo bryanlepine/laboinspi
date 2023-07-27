@@ -28,6 +28,7 @@ const BackToTopButton = () => {
     <>
       {showBackToTop && (
         <div className="back-to-top" onClick={handleBackToTop}>
+          <p>REVENIR EN HAUT</p>
           <img src={Image} alt="Retour en haut de la page" />
           <div className="chevron-up"></div>
         </div>
