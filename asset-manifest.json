@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/laboinspi/static/css/main.cf120e9c.css",
-    "main.js": "/laboinspi/static/js/main.6e37a7e5.js",
+    "main.css": "/laboinspi/static/css/main.2597a3f5.css",
+    "main.js": "/laboinspi/static/js/main.e5bdd740.js",
     "static/media/Décoration_assietes.jpeg": "/laboinspi/static/media/Décoration_assietes.2f232c525493e0fd2038.jpeg",
     "static/media/Prestataire_cocktail.webp": "/laboinspi/static/media/Prestataire_cocktail.31576d83390cedfeab9b.webp",
     "static/media/image4.webp": "/laboinspi/static/media/image4.ecde01be8b7bafa2b174.webp",
@@ -26,7 +26,6 @@
     "static/media/salleshootingdolcevita-sarahduguephotographe133.webp": "/laboinspi/static/media/salleshootingdolcevita-sarahduguephotographe133.8ac8203908b8bb3dfb9f.webp",
     "static/media/Décoration_cake.webp": "/laboinspi/static/media/Décoration_cake.659d66930cfb45ca538d.webp",
     "static/media/logo_laboinspi.webp": "/laboinspi/static/media/logo_laboinspi.d79bb2da646d4c37132f.webp",
-    "static/media/icone-labo.webp": "/laboinspi/static/media/icone-labo.4e146c214c6a1402a77a.webp",
     "static/media/icone_instagram.webp": "/laboinspi/static/media/icone_instagram.3c96c373feac484fd207.webp",
     "static/media/icone_pinterest.webp": "/laboinspi/static/media/icone_pinterest.e05612d857bd343d9a9e.webp",
     "static/media/slick.svg": "/laboinspi/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -35,11 +34,11 @@
     "static/media/slick.woff": "/laboinspi/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/laboinspi/index.html",
     "static/media/Separateur.svg": "/laboinspi/static/media/Separateur.a7e6da49846da559e259c1b54310ccb2.svg",
-    "main.cf120e9c.css.map": "/laboinspi/static/css/main.cf120e9c.css.map",
-    "main.6e37a7e5.js.map": "/laboinspi/static/js/main.6e37a7e5.js.map"
+    "main.2597a3f5.css.map": "/laboinspi/static/css/main.2597a3f5.css.map",
+    "main.e5bdd740.js.map": "/laboinspi/static/js/main.e5bdd740.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf120e9c.css",
-    "static/js/main.6e37a7e5.js"
+    "static/css/main.2597a3f5.css",
+    "static/js/main.e5bdd740.js"
   ]
 }
