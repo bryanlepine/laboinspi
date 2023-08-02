@@ -4,6 +4,10 @@ import { BrowserRouter as Router, Route, Routes, Navigate} from 'react-router-do
 import './css-styles/index.css';
 import Home from './pages/Home';
 
+import FirstFormule from './pages/FirstFormule';
+import SecondeFormule from './pages/SecondeFormule';
+import ThirdFormule from './pages/ThirdFormule';
+
 
 
 createRoot(document.getElementById('root')).render(
@@ -12,6 +16,9 @@ createRoot(document.getElementById('root')).render(
       <Routes>
         <Route path="/laboinspi" element={<Home />} />
         <Route element={<Navigate to="/" />} /> {/* Route par défaut, redirige vers la page d'accueil */}
+        <Route path="/laboinspi/FirstFormule" element={<FirstFormule/>}/>
+        <Route path="/laboinspi/SecondeFormule" element={<SecondeFormule/>}/>
+        <Route path="/laboinspi/ThirdFormule" element={<ThirdFormule/>}/>
       </Routes>
     </Router>
   </React.StrictMode>

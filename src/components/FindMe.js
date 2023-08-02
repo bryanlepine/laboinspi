@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css-styles/FindMe.scss';
 import MyMapComponent from '../components/MyMapComponent';
-import MapComponent from './MapComponent';
+
 
 const FindMe = () => {
   return (

@@ -5,21 +5,12 @@ import WeddingDesigner from './WeddingDesigner';
 import Title from './Title';
 
 import AroundWedding from './AroundWedding';
-import InspirationWedding from './InspirationWedding';
 import PreviewFormules from './PreviewFormules';
-import PrepareWedding from './PrepareWedding';
-import AllWedding from './AllWedding';
+import FormContact from './FormContact';
+
 
 const BodyHome = () => {
-    const inspirationWeddingRef = useRef();
-    const prepareWeddingRef = useRef();
-
-    const scrollToSection = (sectionId) => {
-        const section = document.getElementById(sectionId);
-        if (section) {
-            section.scrollIntoView({ behavior: 'smooth' });
-        }
-    }
+  
 
     return (
         <div>
@@ -30,15 +21,14 @@ const BodyHome = () => {
                 <h2 className='AroundWedding-title-main'>Personnalisez votre décoration de mariage</h2>
                 <p className='AroundWedding-title-second'>Mes formules, conseils et accompagnement pour une décoration de mariage réussie</p>
             </div>
-            <div className='aroundWedding-previewFormules-container'>
+            
             <AroundWedding />
-            <PreviewFormules scrollToSection={scrollToSection} /> 
+            <PreviewFormules /> 
+            <div className='proposition-container'>
+            <p className='proposition-formule'>Pour cela, je vous propose 3 formules adaptées à chaque besoin en tant que futurs mariés.
+<br></br>Leur point commun : elles sont 100% personnalisables, élaborées avec amour et créativité !</p>
             </div>
-            
-            <InspirationWedding ref={inspirationWeddingRef} />
-            <PrepareWedding ref={prepareWeddingRef} />
-            <AllWedding ref={prepareWeddingRef} />
-            
+            <FormContact />  
         </div>
     );
 }

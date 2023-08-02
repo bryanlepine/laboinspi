@@ -1,6 +1,11 @@
 .aroundWedding-previewFormules-container{
-    display: flex;
-    flex-direction: row-reverse;
     margin-top: 40px;
     gap: 20px;
+}
+.proposition-formule{
+    font-size: 22px;
+}
+.proposition-container{
+    display: flex;
+    justify-content: center;
 }
