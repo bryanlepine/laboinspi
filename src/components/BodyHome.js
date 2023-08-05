@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useState,useRef,useEffect } from 'react';
 import '../css-styles/BodyHome.scss';
 import MarineBio from './MarineBio';
 import WeddingDesigner from './WeddingDesigner';
@@ -7,10 +7,10 @@ import Title from './Title';
 import AroundWedding from './AroundWedding';
 import PreviewFormules from './PreviewFormules';
 import FormContact from './FormContact';
+import PdfLink from './PdfLink';
 
 
 const BodyHome = () => {
-  
 
     return (
         <div>
@@ -28,7 +28,9 @@ const BodyHome = () => {
             <p className='proposition-formule'>Pour cela, je vous propose 3 formules adaptées à chaque besoin en tant que futurs mariés.
 <br></br>Leur point commun : elles sont 100% personnalisables, élaborées avec amour et créativité !</p>
             </div>
-            <FormContact />  
+            <PdfLink/>
+            <FormContact /> 
+            
         </div>
     );
 }

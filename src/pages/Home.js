@@ -8,16 +8,19 @@ import '../css-styles/Home.scss';
 import '../css-styles/Main.scss';
 import '../css-styles/Responsive.scss';
 import '../css-styles/Footer.scss';
+import BackGround from "../components/BackGround";
 
 function Home() {
 
   return (
     <div className="Home">
-      
       <div className="HomeWrapper">
         <Header/>
         <Hero/>
         <BodyHome/>
+      </div>
+      <div>
+        <BackGround/>
       </div>
       <div className="footerWrapper">
         <Footer/>

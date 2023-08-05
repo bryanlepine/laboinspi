@@ -1,12 +1,11 @@
 .HomeWrapper {
-  width: 1240px;
+  width: 100%; /* La div HomeWrapper s'étend maintenant sur toute la largeur de l'écran */
   display: flex;
   flex-direction: column;
-  gap: 5px;
-  margin: 5px auto;
+  margin: 0 auto;
+  position: relative;
 
-  .Home {
-    margin: 0 auto;
-    width: 1440px;
+  @media (min-width: 1240px) {
+    width: 1240px; /* Limite la largeur de la div HomeWrapper à 1240px lorsque la largeur de l'écran est supérieure à 1240px */
   }
 }

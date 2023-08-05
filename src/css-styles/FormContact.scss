@@ -1,10 +1,35 @@
-.formulaire-text{
+.formulaire-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-}
-.formule-question{
-    font-size: 28px;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 0px 0px 40px 0px;
+    margin: 0px auto;
+    position: relative;
+    height: 100%; /* Ajustez la hauteur selon vos besoins */
+    width: 60%; /* Ajustez la largeur selon vos besoins */
+
+    
+  }
+
+.formule-question {
+    font-size: 25px;
     font-weight: 500;
-}
+    position: relative;
+    padding: 20px; /* Ajoutez un espace pour mieux visualiser l'effet de flou */
+    color: black;
+  }
+  
+  /**.formule-question::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #EEAC8E;
+    filter: blur(5px); 
+    z-index: -1; 
+  }**/
