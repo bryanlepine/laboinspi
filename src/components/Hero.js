@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import '../css-styles/Hero.scss';
-import { PrevArrow, NextArrow } from './SliderArrows'; // Assurez-vous de spécifier le bon chemin vers le fichier SliderArrows.js
+import { PrevArrow, NextArrow } from './SliderArrows';  
 
 import Image1 from '../images/slider/image1.webp';
 import Image2 from '../images/slider/image2.webp';
@@ -14,15 +14,16 @@ import Image4 from '../images/slider/image4.webp';
 
 const Hero = () => {
   const settings = {
-    dots: false, // Désactive les points de navigation
+    dots: false, 
     infinite: true,
-    speed: 1000,
+    speed: 2000,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 6000,
-    prevArrow: <PrevArrow />, // Utilisez directement le composant de flèche gauche ici
-    nextArrow: <NextArrow />, // Utilisez directement le composant de flèche droite ici
+    autoplaySpeed: 4000,
+    prevArrow: <PrevArrow />, 
+    nextArrow: <NextArrow />, 
+    fade: true,
   };
   
   return (

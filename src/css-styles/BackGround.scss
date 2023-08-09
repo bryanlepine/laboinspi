@@ -3,8 +3,9 @@
   position: relative;
   width: 100%;
   overflow: hidden; /* Assurez-vous que le contenu en dehors du viewport est caché */
+  background-position:top;
 }
 
 .background-image {
- background-position:center;
+ background-position:top;
 }

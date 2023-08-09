@@ -14,11 +14,9 @@ const FirstFormule = () => {
 
   return (
     <div className="Home">
-      <div className="HomeWrapper">
         <Header />
         <InspirationWedding />
         <FormuleNav />
-      </div>
       <Footer />
     </div>
   );

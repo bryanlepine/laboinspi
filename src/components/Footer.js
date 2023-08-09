@@ -7,7 +7,7 @@ const Footer = () => {
     return (
       <div className='footer-all-container'>
         <footer className="footer-reserved">
-            <img src={Image} className="logo-white-kasa" alt="white-logo-kasa" />
+            <img src={Image} className="logo-labo" alt="logo-labo-inspi" />
             <h3 className="rights-reserved"> © 2023 Le Labo Inspi. Tout droits reservés</h3>
           </footer>
           <div className='findMe-wrapper'>

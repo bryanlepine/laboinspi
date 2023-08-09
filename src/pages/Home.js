@@ -9,19 +9,21 @@ import '../css-styles/Main.scss';
 import '../css-styles/Responsive.scss';
 import '../css-styles/Footer.scss';
 import BackGround from "../components/BackGround";
+import Certifications from "../components/Certifications";
 
 function Home() {
 
   return (
     <div className="Home">
-      <div className="HomeWrapper">
+      
         <Header/>
         <Hero/>
         <BodyHome/>
-      </div>
-      <div>
+      
+      
         <BackGround/>
-      </div>
+        <Certifications/>
+      
       <div className="footerWrapper">
         <Footer/>
       </div>

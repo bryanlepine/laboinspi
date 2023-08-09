@@ -5,7 +5,8 @@
     justify-content: space-between;
     align-content: center;
     display: flex;
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
   }
   
@@ -20,15 +21,15 @@
   
   .formule-element .formule-text {
     position: absolute;
-    top: 120px;
+    top: 110px;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-60%);
     opacity: 0;
     visibility: hidden;
     color: #fff;
     padding: 5px 10px;
     border-radius: 4px;
-    font-size: 20px;
+    font-size: 25px;
     width: 200px;
     white-space: nowrap;
     font-style: italic;
@@ -39,22 +40,33 @@
     visibility: visible;
   }
   
-  .formule-element::before {
-    /* Vous pouvez ajouter des styles pour le bouton ici, si nécessaire */
+  .formule-element:hover::before {
+    border: 3px solid #ffd700;
+    border-radius: 15px;
+   
   }
   
-  .formule-element:hover::before {
-    /* Vous pouvez ajouter des styles pour le bouton en hover ici, si nécessaire */
-  }
+  .formule-element::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 99%;
+    height: 97%;
+    border: 5px solid transparent; /* La bordure initiale est transparente */
+    z-index: 1;}
   
   /* Réglage de la luminosité de l'image lors du survol */
   .formule-image{
-    width: 370px;
-    height: 250px;
+    width: 330px;
+    height: 100%;
+    max-height:230px ;
     object-fit: cover;
     border-radius: 15px;
   }
- 
+
+
 .formule-element:hover .formule-image {
   filter: brightness(0.5); /* Ajustez la valeur entre 0 et 1 pour changer la luminosité (0.8 = 80% de la luminosité) */
+  
 }

@@ -1,16 +1,22 @@
 .portrait{
-    width: 25%;
-    height: 350px;
+    width: 100%;
+    max-width:  350px;
+    height: 100%;
+    max-height: 350px;
     object-fit: cover;
     border-radius: 20px;
 }
 .bio-wrapper{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 40px;
+    padding-top: 40px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1300px;
 }
  .texte-bio{
-    width: 600px;
+    width: 100%;
+    max-width: 600px;
     line-height: 200%;
     font-size: 18px;
     font-family: montserrat;
@@ -22,5 +28,6 @@
   font-family: montserrat;
 }
   
+
 
  

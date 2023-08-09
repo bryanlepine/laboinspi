@@ -6,15 +6,18 @@ header {
     align-items: center;
     width: 100%;
     gap: 10px;
-    background-color: #ebcfd168;
+   
     .Laboinspi-logo{
-        width: 320px;
+        width: 100%;
+        max-width: 320px;
+        padding-left: 120px;
     }
     .nav-bar {
        
         width: 200px;
         max-width: 100%;
         gap: 1em;
+        padding-right: 100px;
 
         ul{
         list-style: none;

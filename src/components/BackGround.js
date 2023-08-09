@@ -8,7 +8,7 @@ const BackGround = () => {
   return (
     <div className="background-container">
       <Parallax bgImage={Image} strength={400}>
-        <div style={{ height: 400 }}>
+        <div style={{ height: 450 }}>
           {/* Contenu pour l'effet de parallaxe */}
         </div>
       </Parallax>

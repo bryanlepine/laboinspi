@@ -2,7 +2,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 40px;
+  margin: 0 auto;
+  padding: 60px;
+  width: 100%;
+  max-width: 1200px;
 }
 .home-link {
   font-size: 20px;
@@ -15,3 +18,4 @@
     text-decoration: none;
     color: blue;
 }
+
