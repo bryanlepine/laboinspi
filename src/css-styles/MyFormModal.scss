@@ -1,5 +1,5 @@
 .modal {
-  background-color: rgb(255, 226, 190);
+  background-color:  #FDF2E7;
   background-size: cover;
   background-position-x: 320px;
   padding: 40px 40px 40px 40px;
@@ -15,6 +15,7 @@
   display: block;
   justify-content: center;
   align-items: center;
+  z-index: 1001;
 }
 
 /* Styles pour l'arrière-plan de la modale */
@@ -67,13 +68,18 @@
 
 /* Styles pour le bouton "Ouvrir la modale" */
 .open-modal-button {
-  background-color: transparent;
-  color: #007bff;
+  background-color:  #ffb273; /* Couleur orange de votre charte graphique */
+  color: #fff; /* Texte en blanc pour le contraste */
   border: none;
-  padding: 0;
+  padding: 10px 20px;
+  border-radius: 4px;
   cursor: pointer;
-  text-decoration: underline;
   font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.open-modal-button:hover {
+  background-color: #ffbba4; /* Variation plus foncée pour le survol */
 }
 form {
   display: flex;
@@ -113,7 +119,7 @@ input:focus {
   outline: none; 
 }
 #formule {
-  background-color: blanchedalmond; /* Couleur de fond différente pour le champ désactivé */
+  background-color: #F7F7F7; /* Couleur de fond différente pour le champ désactivé */
   pointer-events: none; /* Rendre le champ non-sélectionnable (désactivé) */
   border: none;
 }
@@ -126,4 +132,9 @@ input:focus {
   border: 0;
   padding: 10px;
   outline: none;
+}
+
+.modal-button-container{
+  text-align: center;
+  margin: 20px;
 }

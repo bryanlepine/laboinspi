@@ -1,5 +1,5 @@
 .certification-icone {
-width: 150px;
+width: 200px;
 }
 
 .certification-container{
@@ -8,4 +8,13 @@ width: 150px;
 }
 .certification-container h2 {
     font-size: 56px;
+}
+.certification-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 15px;
+    align-items: center;
+    width: 900px;
+    margin: 0 auto;
 }

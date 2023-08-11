@@ -29,9 +29,9 @@ const MyFormModal = () => {
   };
 
   return (
-    <div>
+    <div className="modal-button-container">
       <button onClick={openModal} className="open-modal-button">
-        Cliquez ici
+      Envoyer un Message
       </button>
 
       <Modal

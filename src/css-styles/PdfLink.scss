@@ -1,7 +1,24 @@
-.pdf-text-container{
+.pdf-button-container{
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-bottom: 40px;
 }
+
+.download-button {
+    background-color: #507B8A;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    width: 160px;
+    margin: 0 auto;
+  }
+  
+  .download-button:hover {
+    background-color: #0056b3;
+  }

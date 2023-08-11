@@ -24,6 +24,8 @@ const Hero = () => {
     prevArrow: <PrevArrow />, 
     nextArrow: <NextArrow />, 
     fade: true,
+    
+      
   };
   
   return (

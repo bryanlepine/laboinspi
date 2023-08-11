@@ -24,7 +24,7 @@ const InspirationWedding = () => {
           <h3 className='formule-title'>Formule « Coaching »</h3>
         </div>
       </div>
-       <div className="service-description">
+       <div className="inspiration-service-description">
           <p className='service-description-text'> Avec cette formule, je vous donne les clés pour débuter dans votre projet
         et vous conseille sur la partie créative et le choix des prestataires pour une scénographie de mariage réussie !
           </p>
