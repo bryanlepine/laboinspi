@@ -4,13 +4,18 @@ import ImagePrepare from '../images/formules/Prestataire_cocktail.webp';
 import ImageGalerie1 from '../images/formules/Décoration_plan_de_table.webp';
 import ImageGalerie2 from '../images/formules/Décoration_panneau.webp';
 import ImageGalerie3 from '../images/formules/Décoration_assietes.jpeg';
-import ImageGalerie4 from '../images/formules/laurieetlauranneshootingdolcevita-sarahduguephotographe40.webp';
+import ImageGalerie4 from '../images/weddingcakeshootingdolcevita-sarahduguephotographe25.jpeg';
 import { AiOutlineCheckCircle } from 'react-icons/ai';
 
 
 const PrepareWedding = () =>{
   return (
     <div id="prepare-wedding" className="prepare-wedding">
+      <div className='prepare-banner'>
+<img src={ImageGalerie4}/>
+        <p>
+        vous souhaitez être accompagnés dans votre projet de décoration de mariage <br></br>mais vous voulez garder la main pour l’installation de votre décoration le jour J ?</p>
+      </div>
       <div className='prepare-title-wrapper'>
         <h2>Organisation & Ambiance</h2>
           <div className='prepare-title-container'>
@@ -19,14 +24,15 @@ const PrepareWedding = () =>{
       </div>
       <div className='prepare-text'>
         <p>
-      vous souhaitez être accompagnés dans votre projet
-de décoration de mariage mais vous voulez garder la main pour l’installation de votre décoration le jour J ? 
+        Avec cette formule, je m’occupe de tous les préparatifs en amont
+pour vous éviter des mois de travail et de stress. <br></br>Je vous transmets mon savoir-faire pour bien
+gérer les derniers préparatifs sur place. 
         </p>
       </div>
        
       <div className="prepare-container">
         <img className="prepare-image-container" src={ImagePrepare} alt="Image coaching mariage" />
-        <div className="service-description">
+        <div className="prepare-service-description">
         <h3>Descriptif complet du service :</h3>
         <div className='nameVertical-listWrapper'>
           <h4 className='name-vertical'>LA CONCEPTION</h4>
@@ -53,14 +59,8 @@ prestataires pour évoluer en toute autonomie</li>
         </div>
         
     
-        <p>À partir de 900 €</p>
+        <p className='price-service-description'>À partir de 900 €</p>
       </div>
-      </div>
-      <div className='galerie-container'>
-      <img className="prepare-image-galerie" src={ImageGalerie1} alt="Photo-plan-de-table" />
-      <img className="prepare-image-galerie" src={ImageGalerie4} alt="Photo-plan-de-table" />
-      <img className="prepare-image-galerie" src={ImageGalerie3} alt="Photo-plan-de-table" />
-      <img className="prepare-image-galerie" src={ImageGalerie2} alt="Photo-plan-de-table" />
       </div>
     </div>
   );

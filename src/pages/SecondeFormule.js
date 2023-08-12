@@ -4,6 +4,8 @@ import PrepareWedding from "../components/PrepareWedding";
 import Header from "../components/Header";
 import FormuleNav from "../components/FormuleNav";
 import Footer from "../components/Footer";
+import MyFormModal from "../components/MyFormModal";
+import FormuleMessage from "../components/FormuleMessage";
 
 const SecondeFormule = () => {
   useEffect(() => {
@@ -11,11 +13,13 @@ const SecondeFormule = () => {
   }, []);
   return (
     <div className="Home">
-      <div className="HomeWrapper">
+      
         <Header />
         <PrepareWedding />
+        <FormuleMessage/>
+        <MyFormModal/>
         <FormuleNav />
-      </div>
+      
       <Footer />
     </div>
   );

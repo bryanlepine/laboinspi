@@ -7,6 +7,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import FormuleNav from "../components/FormuleNav";
 import MyFormModal from "../components/MyFormModal";
+import FormuleMessage from "../components/FormuleMessage";
 
 const FirstFormule = () => {
   useEffect(() => {
@@ -17,6 +18,7 @@ const FirstFormule = () => {
     <div className="Home">
         <Header />
         <InspirationWedding />
+       <FormuleMessage/>
         <MyFormModal/>
         <FormuleNav />
       <Footer />

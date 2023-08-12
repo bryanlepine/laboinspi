@@ -1,15 +1,18 @@
 import React from "react";
 import "../css-styles/AllWedding.scss";
 import Image1 from "../images/formules/salleshootingdolcevita-sarahduguephotographe160.webp";
-import Image2 from "../images/formules/weddingcakeshootingdolcevita-sarahduguephotographe27.webp";
-import Image3 from "../images/formules/salleshootingdolcevita-sarahduguephotographe133.webp";
-import Image4 from "../images/formules/Couple_mariage_vintage_exterieur.webp";
-import Image5 from "../images/formules/weddingcakeshootingdolcevita-sarahduguephotographe119.webp";
+import Image5 from "../images/weddingcakeshootingdolcevita-sarahduguephotographe42.jpeg";
 import { AiOutlineCheckCircle } from "react-icons/ai";
 
 const AllWedding = () => {
   return (
     <div id="all-wedding" className="all-wedding">
+      <div className='allWedding-banner'>
+<img src={Image5}/>
+        <p>
+        Futurs mariés overbookés ou stressés, les préparatifs de votre mariage vous angoisse ?
+Pas de panique, je m'occupe de tout !</p>
+      </div>
       <div className="all-title-wrapper">
         <h2>Immersion & Scénographie </h2>
         <div className="prepare-title-container">
@@ -18,11 +21,9 @@ const AllWedding = () => {
       </div>
       <div className="all-text">
         <p>
-          Futurs mariés overbookés ou stressés, les préparatifs de votre mariage
-          vous angoisse ? Avec cette formule, vous me partagez toutes vos envies
-          pour votre décoration de mariage et je m’occupe de tous les
-          préparatifs déco sans exception. Vous profitez pleinement de votre
-          grand jour sans stress et garder un peu de surprise !
+        Avec cette formule, vous me partagez toutes vos envies pour votre
+décoration de mariage et je m’occupe de tous les préparatifs déco sans exception. Vous
+profitez pleinement de votre grand jour sans stress et garder un peu de surprise !
         </p>
       </div>
 
@@ -111,28 +112,6 @@ const AllWedding = () => {
             décoration, l'achat de la papeterie et des fleurs.
           </p>
         </div>
-      </div>
-      <div className="image-wrapper-type">
-        <img
-          className="image-element2"
-          src={Image2}
-          alt="Image coaching mariage"
-        />
-        <img
-          className="image-element2"
-          src={Image3}
-          alt="Image coaching mariage"
-        />
-        <img
-          className="image-element2"
-          src={Image4}
-          alt="Image coaching mariage"
-        />
-        <img
-          className="image-element2"
-          src={Image5}
-          alt="Image coaching mariage"
-        />
       </div>
     </div>
   );
