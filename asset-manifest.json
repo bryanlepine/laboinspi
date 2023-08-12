@@ -1,7 +1,9 @@
 {
   "files": {
-    "main.css": "/laboinspi/static/css/main.5813e2b2.css",
-    "main.js": "/laboinspi/static/js/main.c5d38bad.js",
+    "main.css": "/laboinspi/static/css/main.678c38d3.css",
+    "main.js": "/laboinspi/static/js/main.28363829.js",
+    "static/media/weddingcakeshootingdolcevita-sarahduguephotographe42.jpeg": "/laboinspi/static/media/weddingcakeshootingdolcevita-sarahduguephotographe42.990eb322fc0a61b28d22.jpeg",
+    "static/media/weddingcakeshootingdolcevita-sarahduguephotographe25.jpeg": "/laboinspi/static/media/weddingcakeshootingdolcevita-sarahduguephotographe25.469bc7ca584cc6033b44.jpeg",
     "static/media/laurieetlauranneshootingdolcevita-sarahduguephotographe40.jpeg": "/laboinspi/static/media/laurieetlauranneshootingdolcevita-sarahduguephotographe40.99bb73744e6c3a5d7f4e.jpeg",
     "static/media/firstlookshootingdolcevita-sarahduguephotographe6.jpeg": "/laboinspi/static/media/firstlookshootingdolcevita-sarahduguephotographe6.5414e8de56cf2f2fa162.jpeg",
     "static/media/Décoration_assietes.jpeg": "/laboinspi/static/media/Décoration_assietes.2f232c525493e0fd2038.jpeg",
@@ -19,14 +21,9 @@
     "static/media/Décoration-table-coaching.webp": "/laboinspi/static/media/Décoration-table-coaching.e34a288bb178ec60fd6d.webp",
     "static/media/Décoration_plan_de_table.webp": "/laboinspi/static/media/Décoration_plan_de_table.4a78c0da0c96ae92a392.webp",
     "static/media/Décoration_biscuits.webp": "/laboinspi/static/media/Décoration_biscuits.2526a7714c1459e4231c.webp",
-    "static/media/weddingcakeshootingdolcevita-sarahduguephotographe119.webp": "/laboinspi/static/media/weddingcakeshootingdolcevita-sarahduguephotographe119.d9affd9d8ef5e9209212.webp",
-    "static/media/laurieetlauranneshootingdolcevita-sarahduguephotographe40.webp": "/laboinspi/static/media/laurieetlauranneshootingdolcevita-sarahduguephotographe40.105518731c8a9b16f3f5.webp",
-    "static/media/weddingcakeshootingdolcevita-sarahduguephotographe27.webp": "/laboinspi/static/media/weddingcakeshootingdolcevita-sarahduguephotographe27.eb2cf3ccf13f913b14be.webp",
     "static/media/Décoration-table-coaching-mini.webp": "/laboinspi/static/media/Décoration-table-coaching-mini.fca60a12f5847f9919cf.webp",
     "static/media/Décoration_focus_table.webp": "/laboinspi/static/media/Décoration_focus_table.76f361604cb1402c8096.webp",
     "static/media/Cocktailshootingdolcevita-sarahduguephotographe85.webp": "/laboinspi/static/media/Cocktailshootingdolcevita-sarahduguephotographe85.69c85526bb2706ed38c1.webp",
-    "static/media/Couple_mariage_vintage_exterieur.webp": "/laboinspi/static/media/Couple_mariage_vintage_exterieur.4f76459ca14bc328f368.webp",
-    "static/media/salleshootingdolcevita-sarahduguephotographe133.webp": "/laboinspi/static/media/salleshootingdolcevita-sarahduguephotographe133.8ac8203908b8bb3dfb9f.webp",
     "static/media/Décoration_cake.webp": "/laboinspi/static/media/Décoration_cake.659d66930cfb45ca538d.webp",
     "static/media/logo_laboinspi.webp": "/laboinspi/static/media/logo_laboinspi.d79bb2da646d4c37132f.webp",
     "static/media/icone_instagram.webp": "/laboinspi/static/media/icone_instagram.3c96c373feac484fd207.webp",
@@ -37,11 +34,11 @@
     "static/media/slick.woff": "/laboinspi/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/laboinspi/index.html",
     "static/media/Separateur.svg": "/laboinspi/static/media/Separateur.a7e6da49846da559e259c1b54310ccb2.svg",
-    "main.5813e2b2.css.map": "/laboinspi/static/css/main.5813e2b2.css.map",
-    "main.c5d38bad.js.map": "/laboinspi/static/js/main.c5d38bad.js.map"
+    "main.678c38d3.css.map": "/laboinspi/static/css/main.678c38d3.css.map",
+    "main.28363829.js.map": "/laboinspi/static/js/main.28363829.js.map"
   },
   "entrypoints": [
-    "static/css/main.5813e2b2.css",
-    "static/js/main.c5d38bad.js"
+    "static/css/main.678c38d3.css",
+    "static/js/main.28363829.js"
   ]
 }
