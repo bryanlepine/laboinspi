@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/laboinspi/static/css/main.678c38d3.css",
-    "main.js": "/laboinspi/static/js/main.28363829.js",
+    "main.css": "/laboinspi/static/css/main.adc94768.css",
+    "main.js": "/laboinspi/static/js/main.daf3b0d8.js",
     "static/media/weddingcakeshootingdolcevita-sarahduguephotographe42.jpeg": "/laboinspi/static/media/weddingcakeshootingdolcevita-sarahduguephotographe42.990eb322fc0a61b28d22.jpeg",
     "static/media/weddingcakeshootingdolcevita-sarahduguephotographe25.jpeg": "/laboinspi/static/media/weddingcakeshootingdolcevita-sarahduguephotographe25.469bc7ca584cc6033b44.jpeg",
     "static/media/laurieetlauranneshootingdolcevita-sarahduguephotographe40.jpeg": "/laboinspi/static/media/laurieetlauranneshootingdolcevita-sarahduguephotographe40.99bb73744e6c3a5d7f4e.jpeg",
@@ -34,11 +34,11 @@
     "static/media/slick.woff": "/laboinspi/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/laboinspi/index.html",
     "static/media/Separateur.svg": "/laboinspi/static/media/Separateur.a7e6da49846da559e259c1b54310ccb2.svg",
-    "main.678c38d3.css.map": "/laboinspi/static/css/main.678c38d3.css.map",
-    "main.28363829.js.map": "/laboinspi/static/js/main.28363829.js.map"
+    "main.adc94768.css.map": "/laboinspi/static/css/main.adc94768.css.map",
+    "main.daf3b0d8.js.map": "/laboinspi/static/js/main.daf3b0d8.js.map"
   },
   "entrypoints": [
-    "static/css/main.678c38d3.css",
-    "static/js/main.28363829.js"
+    "static/css/main.adc94768.css",
+    "static/js/main.daf3b0d8.js"
   ]
 }
