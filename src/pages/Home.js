@@ -14,11 +14,13 @@ import Certifications from "../components/Certifications";
 function Home() {
 
   return (
-    <div className="Home">
-      
+    <div className="home">
+      <div className="home-container">
         <Header/>
         <Hero/>
         <BodyHome/>
+      </div>
+       
       
       
         <BackGround/>
