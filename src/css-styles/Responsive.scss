@@ -1,4 +1,13 @@
 @import 'Main';
+@media only screen and (max-width : 1700px) {
+  .slider-photographie{
+    height: 500px;
+    object-fit:cover;
+  }
+  .title-wrapper .title-main{
+    max-width: 1000px;
+  }
+}
 
 @media only screen and (max-width : 1050px) {
   .Home {
