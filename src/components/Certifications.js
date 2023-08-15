@@ -11,7 +11,7 @@ const Certifications = () => {
         <img className="certification-icone" src={ImageIcone} alt="Certifications" />
       </a>
       <a href="https://www.mariages.net/decoration-mariage/marine-wedding-designer--e303390" rel="nofollow" title="Mariages.net" target="_blank" rel="noopener noreferrer">
-        <img alt="Mariages.net" src="https://www.mariages.net/images/sellos/label-partenaire--gg303390.png" style={{ borderWidth: 0 }} />
+        <img className="certification-icone2" alt="Mariages.net" src="https://www.mariages.net/images/sellos/label-partenaire--gg303390.png" style={{ borderWidth: 0 }} />
       </a>
       </div>
      

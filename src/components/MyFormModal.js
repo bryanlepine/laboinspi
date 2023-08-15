@@ -5,6 +5,7 @@ import "../css-styles/MyFormModal.scss";
 const MyFormModal = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [formData, setFormData] = useState({
+    formule:"",
     name: "",
     email: "",
   });
@@ -28,6 +29,14 @@ const MyFormModal = () => {
     setIsOpen(false);
   };
 
+  const formuleValues = {
+    "/laboinspi": "Formule personnalisée",
+    "/laboinspi/FirstFormule": "Formule coaching",
+    "/laboinspi/SecondeFormule": "Formule préparatifs",
+    "/laboinspi/ThirdFormule": "Formule clé en main",
+  };
+  const currentFormule = formuleValues[window.location.pathname] || "";
+  const formuleOptions = Object.values(formuleValues);
   return (
     <div className="modal-button-container">
       <button onClick={openModal} className="open-modal-button">
@@ -47,13 +56,31 @@ const MyFormModal = () => {
             <label htmlFor="name">
               Choix de formule:
             </label>
-            <input
-              type="text"
-              id="formule"
-              name="formule"
-              value="Formule personnalisé"
-              onChange={handleChange}
-            />
+      
+            {window.location.pathname === "/laboinspi" ? (
+              <div>
+                <select
+                  id="formuleOptions"
+                  name="formuleOptions"
+                  value={formData.formule}
+                  onChange={handleChange}
+                >
+                  {formuleOptions.map((option, index) => (
+                    <option key={index} value={option}>
+                      {option}
+                    </option>
+                  ))}
+                </select>
+              </div>
+            ) : (
+              <input
+                type="text"
+                id="formule"
+                name="formule"
+                value={currentFormule}
+                readOnly
+              />
+            )}
           </div>
           <div>
             <label htmlFor="name">Nom:</label>

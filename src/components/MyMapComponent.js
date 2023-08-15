@@ -9,8 +9,9 @@ const citymap = {
 const markerPosition = { lat: 47.27249639427064, lng: -2.214256563918631 };
 
 const containerStyle = {
-  width: '350px',
-  height: '250px'
+  width: '100%',
+  maxWidth:'350px',
+  height: '250px',
 };
 
 const center = {

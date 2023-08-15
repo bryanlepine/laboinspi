@@ -10,6 +10,7 @@ import '../css-styles/Responsive.scss';
 import '../css-styles/Footer.scss';
 import BackGround from "../components/BackGround";
 import Certifications from "../components/Certifications";
+import FormContact from "../components/FormContact";
 
 function Home() {
 
@@ -20,9 +21,7 @@ function Home() {
         <Hero/>
         <BodyHome/>
       </div>
-       
-      
-      
+        <FormContact/>
         <BackGround/>
         <Certifications/>
       
