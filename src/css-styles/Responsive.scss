@@ -132,7 +132,7 @@
 
   /*Hero*/
  .slider-photographie{
-    height: 500px;
+    height: 360px;
     object-fit:cover;
   }
 
@@ -157,7 +157,9 @@
   color: #50705B;
   max-width: 800px;
   text-align: center;
-  margin: 40px auto;
+  margin: 20px auto;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
   /*AroundWedding*/
@@ -191,15 +193,29 @@
 .certification-container h2 {
   font-size: 36px !important;
 }
+.certification-links {
+margin: 0px auto !important;
+max-width: 300px !important;
+flex-direction: column !important;
+
+}
+
 /*Footer*/
 .footer-reserved {
 
-  padding: 10px 10px 10px 10px;
+  padding: 20px 20px 0px 20px;
   gap: 20px;
 }
 .findMe-textMap-wrapper {
   flex-direction: column;
-  margin: 10px 40px 10px 10px;
+  margin: 10px 10px 20px 10px;
+}
+.findMe-text {
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  font-size: 16px;
+  padding-right: 0px;
 }
 } 
 
