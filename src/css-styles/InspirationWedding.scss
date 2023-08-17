@@ -1,3 +1,5 @@
+
+
 .inspiration-wedding {
   display: flex;
   flex-direction: column;
@@ -38,21 +40,23 @@
   z-index: -1;
 }
   
-  .inspiration-wedding h2 {
-    font-size: 70px;
+  .inspiration-wedding h3 {
+    font-size: 40px;
     font-weight: 300;
     margin-bottom: 10px;
-    margin-top: 30px;
+    margin-top: 10px;
     color: #50705B;
+    text-align: center;
   }
   .inspiration-title-wrapper{
     position: relative;
     margin-bottom: 50px;
   }
   .formule-title {
-    font-size: 32px;
+    font-size: 50px;
     font-weight: 300;
-    margin: 0 auto;
+    margin: 0px auto;
+    margin-top: 40px;
     text-align: center;
     color: #F4F4F4;
     position: relative; /* Pour contenir le ::before */
@@ -66,12 +70,12 @@
     content: "";
     position: absolute;
     top: 0;
-    left: 100px;
-    right: 100px;
+    left: -10px;
+    right: -10px;
     bottom: 0;
     background-color: #EEAC8E;
     filter: blur(5px); /* Ajoute le filtre de flou */
-    z-index: -1;
+    z-index: -1;      
   }
 
   .inspiration-wedding > p {

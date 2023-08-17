@@ -8,6 +8,8 @@ import Footer from "../components/Footer";
 import FormuleNav from "../components/FormuleNav";
 import MyFormModal from "../components/MyFormModal";
 import FormuleMessage from "../components/FormuleMessage";
+import '../css-styles/Responsive.scss';
+
 
 const FirstFormule = () => {
   useEffect(() => {
@@ -15,7 +17,7 @@ const FirstFormule = () => {
   }, []);
 
   return (
-    <div className="Home">
+    <div className="home-container">
         <Header />
         <InspirationWedding />
        <FormuleMessage/>

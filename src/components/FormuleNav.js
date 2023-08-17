@@ -25,23 +25,25 @@ const FormuleNav = () => {
 
   return (
     <div className="formules-navigation">
-      <Link to={formules[prevIndex]} className="arrow-button">
-        <button>
-          <img src={ArrowPrev} className="arrow-image" alt="arrow-previous" />
-          <p>{prevFormule}</p> {/* Utilisez le nom de la formule précédente */}
-        </button>
-      </Link>
+     <Link to="/laboinspi" className="home-link">
+        Page d'accueil
+      </Link> 
+   <Link to={formules[prevIndex]} className="arrow-button">
+  <button className="p-prev">
+    <img src={ArrowPrev} className="arrow-image" alt="arrow-previous" />
+    <p className="hidden-text">{prevFormule}</p>
+  </button>
+</Link>
 
-      <Link to="/laboinspi" className="home-link">
-        Retourner sur la page d'accueil
-      </Link>
+      
 
       <Link to={formules[nextIndex]} className="arrow-button">
-        <button>
-          <p>{nextFormule}</p> {/* Utilisez le nom de la formule suivante */}
-          <img src={ArrowNext} className="arrow-image" alt="arrow" />
-        </button>
-      </Link>
+  <button className="p-next">
+    <img src={ArrowNext} className="arrow-image" alt="arrow" />
+    <p className="hidden-text">{nextFormule}</p>
+    
+  </button>
+</Link>
     </div>
   );
 };

@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   margin: 50px auto;
+  position: relative;
   
   width: 100%;
   max-width: 1200px;
@@ -17,10 +18,14 @@
 .home-link{
     text-decoration: none;
     color: blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .arrow-button {
   text-decoration: none;
-  
+  position: relative;
 }
 .arrow-button button {
   display: flex;

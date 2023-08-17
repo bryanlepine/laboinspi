@@ -8,6 +8,7 @@ import ImageGalerie4 from '../images/weddingcakeshootingdolcevita-sarahduguephot
 import { AiOutlineCheckCircle } from 'react-icons/ai';
 
 
+
 const PrepareWedding = () =>{
   return (
     <div id="prepare-wedding" className="prepare-wedding">
@@ -17,10 +18,10 @@ const PrepareWedding = () =>{
         vous souhaitez être accompagnés dans votre projet de décoration de mariage <br></br>mais vous voulez garder la main pour l’installation de votre décoration le jour J ?</p>
       </div>
       <div className='prepare-title-wrapper'>
-        <h2>Organisation & Ambiance</h2>
           <div className='prepare-title-container'>
-            <h3 className='prepare-title'>Formule « Préparatifs »</h3>
+            <h2 className='prepare-title'>Formule « Préparatifs »</h2>
           </div>
+          <h3>Organisation & Ambiance</h3>
       </div>
       <div className='prepare-text'>
         <p>

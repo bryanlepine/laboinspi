@@ -6,14 +6,14 @@ import FormuleNav from "../components/FormuleNav";
 import Footer from "../components/Footer";
 import MyFormModal from "../components/MyFormModal";
 import FormuleMessage from "../components/FormuleMessage";
+import "../css-styles/Responsive.scss"
 
 const SecondeFormule = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className="Home">
-      
+    <div className="home-container">
         <Header />
         <PrepareWedding />
         <FormuleMessage/>
