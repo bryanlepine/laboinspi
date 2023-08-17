@@ -9,9 +9,9 @@ const FormuleNav = () => {
   const currentPath = location.pathname;
 
   const formuleNames = {
-    "/laboinspi/FirstFormule": "Inspiration & Déco",
-    "/laboinspi/SecondeFormule": "Organisation & Ambiance",
-    "/laboinspi/ThirdFormule": "Immersion & Scénographie",
+    "/laboinspi/FirstFormule": "Formule Coaching",
+    "/laboinspi/SecondeFormule": "Formule Préparatifs",
+    "/laboinspi/ThirdFormule": "Formule Clé en main",
   };
 
   const formules = Object.keys(formuleNames);
@@ -34,9 +34,6 @@ const FormuleNav = () => {
     <p className="hidden-text">{prevFormule}</p>
   </button>
 </Link>
-
-      
-
       <Link to={formules[nextIndex]} className="arrow-button">
   <button className="p-next">
     <img src={ArrowNext} className="arrow-image" alt="arrow" />

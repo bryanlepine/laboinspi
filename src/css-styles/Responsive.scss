@@ -141,9 +141,28 @@ max-width: 780px;
   padding: 0px;
   padding-right: 0px;
   padding-right: 0px;
-
 }
 
+/*formule clé en main*/
+.all-wedding .all-wedding-container {
+  display: flex;
+  flex-direction:column;
+ gap: 20px;
+}
+.images-container .image-element {
+  max-width: 900px;
+  width: 100%;
+  height: 800px;
+  object-fit: cover;
+}
+.all-wedding-container .service-description {
+  width: 100%;
+  max-width: 700px;
+  padding: 0px;
+  
+}
+
+/**/
 .arrow-button button {
   display: flex;
   align-items: center;
@@ -294,7 +313,7 @@ flex-direction: column !important;
 }
 .findMe-textMap-wrapper {
   flex-direction: column;
-  margin: 10px 10px 20px 10px;
+  margin: 0px 0px 0px 0px;
   
 }
 .findMe-text {
@@ -331,6 +350,25 @@ flex-direction: column !important;
 }
 .inspiration-banner p {
  font-size: 22px !important;
+}
+/*formule coaching*/
+.prepare-banner p{
+  font-size: 22px !important;
+
+}
+
+#inspiration-wedding .formule-title {
+  font-size: 35px !important;
+}
+#prepare-wedding .prepare-title {
+  font-size: 35px;
+}
+#prepare-wedding h3 {
+  font-size: 30px;
+}
+#prepare-wedding p {
+  font-size: 20px;
+ 
 }
 } 
 

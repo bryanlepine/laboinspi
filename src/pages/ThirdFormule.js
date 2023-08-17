@@ -12,15 +12,19 @@ const ThirdFormule = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className="Home">
+    <div>
+      <div className="home-container">
       
         <Header />
         <AllWedding />
         <FormuleMessage/>
         <MyFormModal/>
         <FormuleNav />
-      <Footer />
+      
     </div>
+    <Footer />
+    </div>
+    
   );
 };
 

@@ -14,10 +14,11 @@ const AllWedding = () => {
 Pas de panique, je m'occupe de tout !</p>
       </div>
       <div className="all-title-wrapper">
-        <h2>Immersion & Scénographie </h2>
+       
         <div className="prepare-title-container">
-          <h3 className="prepare-title">Formule « Clé en Main »»</h3>
-        </div>
+          <h2 className="prepare-title">Formule « Clé en Main »</h2>
+        </div> 
+        <h3>Immersion & Scénographie </h3>
       </div>
       <div className="all-text">
         <p>

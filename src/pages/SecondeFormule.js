@@ -13,15 +13,17 @@ const SecondeFormule = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className="home-container">
+    <div>
+      <div className="home-container">
         <Header />
         <PrepareWedding />
         <FormuleMessage/>
         <MyFormModal/>
         <FormuleNav />
-      
-      <Footer />
     </div>
+    <Footer />
+    </div>
+    
   );
 };
 
