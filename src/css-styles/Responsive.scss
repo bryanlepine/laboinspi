@@ -1,7 +1,64 @@
 @import 'Main';
-@media only screen and (max-width : 1700px) {
+
+@media only screen and (max-width : 2400px) {
+
+  header .Laboinspi-logo {
+    width: 100%;
+    max-width: 400px;
+  }
+  .bio-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1650px;
+    gap: 20px;
+  }
+  .portrait {
+    width: 100%;
+    max-width: 350px;
+    height: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  .texte-bio {
+    font-size: 20px;
+    max-width: 720px;
+  }
+  .designer-wrapper .designer-container {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  .designer-wrapper .designer-container .designer-text {
+    width: 100%;
+    max-width: 600px;
+    font-size: 20px;
+  }
+  .photo-table {
+    
+    max-width: 600px;
+    min-width: 200px;
+    height: 100%;
+    max-height: 900px;
+  }
+  .AroundWedding-titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width : 1600px) {
   .slider-photographie{
-    height: 500px;
+    height: 510px;
     object-fit:cover;
   }
   .title-wrapper .title-main{
@@ -31,9 +88,12 @@
     
     .Laboinspi-logo{
     width: 80%;
-    min-width: 150px;
-    padding-left: 10px;
+    min-width: 180px;
 }
+  }
+
+  .bio-wrapper {
+   padding-bottom: 0px;
   }
  
  /*Preview*/
@@ -224,16 +284,21 @@ max-width: 780px;
 
 
   /*Header*/
-  header .Kasa-logo {
-    height: 30px;
-    width: 100px;
-    pointer-events: none;
-  }
 
   header .nav-bar { 
    padding-left: 0;
     padding-right: 0;
   }
+  .insta-icone{
+    width: 100%;
+    max-width: 40px;
+    min-width: 25px;
+}
+.pinterest-icone{
+    width: 100%;
+    max-width: 30px;
+    min-width: 20px;
+}
 
   /*Hero*/
  .slider-photographie{

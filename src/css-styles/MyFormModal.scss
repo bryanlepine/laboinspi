@@ -75,12 +75,15 @@
   border-radius: 4px;
   cursor: pointer;
   font-size: 18px;
-  transition: background-color 0.3s ease;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .open-modal-button:hover {
-  background-color: #ffbba4; /* Variation plus foncée pour le survol */
+  background-color: #ffbba4;
+  transform: scale(1.1); /* Agrandissement léger du bouton au survol */
 }
+
 form {
   display: flex;
   flex-direction: column;
