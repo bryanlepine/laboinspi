@@ -1,6 +1,7 @@
 import React from 'react';
 import '../css-styles/FormContact.scss'
 import MyFormModal from './MyFormModal';
+import '../css-styles/Responsive.scss';
 
 
 

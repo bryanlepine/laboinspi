@@ -52,13 +52,13 @@ const MyFormModal = () => {
       >
         <h2 className="modal-title">Formulaire de contact</h2>
         <form onSubmit={handleSubmit}>
-          <div>
+          <div className="formule-options">
             <label htmlFor="name">
               Choix de formule:
             </label>
       
             {window.location.pathname === "/laboinspi" ? (
-              <div>
+              <div className="form-options">
                 <select
                   id="formuleOptions"
                   name="formuleOptions"
@@ -82,7 +82,7 @@ const MyFormModal = () => {
               />
             )}
           </div>
-          <div>
+          <div className="form-input-line">
             <label htmlFor="name">Nom:</label>
             <input
               type="text"
@@ -92,7 +92,7 @@ const MyFormModal = () => {
               onChange={handleChange}
             />
           </div>
-          <div>
+          <div className="form-input-line">
             <label htmlFor="firstname">Prénom:</label>
             <input
               type="text"
@@ -102,7 +102,7 @@ const MyFormModal = () => {
               onChange={handleChange}
             />
           </div>
-          <div>
+          <div className="form-input-line">
             <label htmlFor="email">E-mail:</label>
             <input
               type="email"
@@ -112,7 +112,7 @@ const MyFormModal = () => {
               onChange={handleChange}
             />
           </div>
-          <div>
+          <div className="form-input-line">
             <label htmlFor="email">
               Date du mariage:
             </label>
@@ -124,7 +124,7 @@ const MyFormModal = () => {
               onChange={handleChange}
             />
           </div>
-          <div>
+          <div className="form-input-line">
             <label htmlFor="location">
               Lieu du mariage:
             </label>
@@ -135,7 +135,7 @@ const MyFormModal = () => {
               value={formData.location}
               onChange={handleChange}
             />
-          </div>
+          </div >
           <div className="message-form">
             <label htmlFor="message">Message:</label>
             <textarea
