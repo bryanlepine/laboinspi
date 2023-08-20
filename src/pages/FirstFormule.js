@@ -17,14 +17,18 @@ const FirstFormule = () => {
   }, []);
 
   return (
-    <div className="home-container">
+    <div className="home">
+      <div className="home-container">
         <Header />
         <InspirationWedding />
        <FormuleMessage/>
         <MyFormModal/>
         <FormuleNav />
-      <Footer />
+      
     </div>
+    <Footer />
+    </div>
+    
   );
 };
 

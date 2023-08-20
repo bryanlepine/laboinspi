@@ -21,6 +21,7 @@ const center = {
 
 const MyMapComponent = () => {
   return (
+    
     <LoadScript
       googleMapsApiKey="AIzaSyC-PYXRuCwxqlV5OW-hUNn4qwFAf_NEcn0"
     >

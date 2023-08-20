@@ -5,7 +5,7 @@ const FormuleMessage = () => {
 
   return (
     <div className="formule-message-info">
-          <p>Si vous êtes intéressé  ou vous avez la moindre question à propos de la formule Inspiration et Déco</p>
+          <p>Si vous êtes intéressé ou souhaitez plus d'informations à propos de cette formule</p>
         </div>
   );
 };

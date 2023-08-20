@@ -15,13 +15,13 @@ const PrepareWedding = () =>{
       <div className='prepare-banner'>
 <img src={ImageGalerie4}/>
         <p>
-        vous souhaitez être accompagnés dans votre projet de décoration de mariage <br></br>mais vous voulez garder la main pour l’installation de votre décoration le jour J ?</p>
+        Vous souhaitez être accompagnés dans votre projet de décoration de mariage <br></br>mais vous voulez garder la main pour l’installation de votre décoration le jour J ?</p>
       </div>
       <div className='prepare-title-wrapper'>
           <div className='prepare-title-container'>
-            <h2 className='prepare-title'>Formule « Préparatifs »</h2>
+            <h2 className='prepare-title'>Formule Préparatifs</h2>
           </div>
-          <h3>Organisation & Ambiance</h3>
+          <h3>" Organisation & Ambiance "</h3>
       </div>
       <div className='prepare-text'>
         <p>
@@ -59,8 +59,15 @@ prestataires pour évoluer en toute autonomie</li>
         </ul>
         </div>
         
-    
-        <p className='price-service-description'>À partir de 900 €</p>
+    <div className='price-service-container'>
+       <p className='price-service-description'>À partir de 900 € *</p>
+        <p className='element-service-description'>
+            *Ce tarif n'inclut pas les frais kilométriques, le livraison du
+            matériel sur place, la location et la création des éléments de
+            décoration, l'achat de la papeterie et des fleurs.
+          </p>
+    </div>
+       
       </div>
       </div>
     </div>

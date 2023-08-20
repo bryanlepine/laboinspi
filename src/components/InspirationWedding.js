@@ -21,9 +21,9 @@ const InspirationWedding = () => {
       <div className='inspiration-title-wrapper'>
        
         <div className='formule-title-container'>
-          <h2 className='formule-title'>Formule « Coaching »</h2>
+          <h2 className='formule-title'>Formule Coaching</h2>
         </div> 
-        <h3>Inspiration & Déco</h3>
+        <h3>" Inspiration & Déco "</h3>
       </div>
        <div className="inspiration-service-description">
           <p className='service-description-text'> Avec cette formule, je vous donne les clés pour débuter dans votre projet

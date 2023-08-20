@@ -23,15 +23,10 @@
 .AroundWedding-texte {
     line-height: 200%;
     display: flex;
-    justify-content: center; /* Utilisez "justify-content: center" pour centrer horizontalement le texte */
-    height: 80%;
-    width: auto;
-    margin: 0px 0px 20px 0px;
-}
-.AroundWedding-texte p{
-    display: block;
-    text-align:center;
-    justify-items: center;
+    margin: 0 auto;
+    text-align: center;
     width: 100%;
+    max-width: 1500px;
     font-size: 20px;
+    height: 80%;
 }

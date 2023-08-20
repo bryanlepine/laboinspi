@@ -16,9 +16,9 @@ Pas de panique, je m'occupe de tout !</p>
       <div className="all-title-wrapper">
        
         <div className="prepare-title-container">
-          <h2 className="prepare-title">Formule « Clé en Main »</h2>
+          <h2 className="prepare-title">Formule Clé en Main</h2>
         </div> 
-        <h3>Immersion & Scénographie </h3>
+        <h3>" Immersion & Scénographie "</h3>
       </div>
       <div className="all-text">
         <p>
@@ -106,7 +106,7 @@ profitez pleinement de votre grand jour sans stress et garder un peu de surprise
               </li>
             </ul>
           </div>
-          <p>*À partir de 1500 €</p>
+          <p>À partir de 1500 € *</p>
           <p>
             *Ce tarif n'inclut pas les frais kilométriques, le livraison du
             matériel sur place, la location et la création des éléments de
