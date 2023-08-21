@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
 import "../css-styles/MyFormModal.scss";
+Modal.setAppElement('#root');
 
 const MyFormModal = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -62,7 +63,7 @@ const MyFormModal = () => {
                 <select
                   id="formuleOptions"
                   name="formuleOptions"
-                  value={formData.formule}
+                  value={formData.formuleOptions}
                   onChange={handleChange}
                 >
                   {formuleOptions.map((option, index) => (
@@ -73,13 +74,25 @@ const MyFormModal = () => {
                 </select>
               </div>
             ) : (
-              <input
-                type="text"
-                id="formule"
-                name="formule"
-                value={currentFormule}
-                readOnly
-              />
+              <div className="form-options">
+              {formuleOptions.includes(currentFormule) && (
+                <select
+                  id="formuleOptions"
+                  name="formuleOptions"
+                  value={formData.formuleOptions}
+                  onChange={handleChange}
+                >
+                  {[
+                    currentFormule,
+                    ...formuleOptions.filter(option => option !== currentFormule)
+                  ].map((option, index) => (
+                    <option key={index} value={option}>
+                      {option}
+                    </option>
+                  ))}
+                </select>
+              )}
+            </div>
             )}
           </div>
           <div className="form-input-line">

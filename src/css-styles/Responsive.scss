@@ -118,6 +118,7 @@
   align-content: center;
   align-items: center;
   gap: 10px;
+  margin: 20px auto;
  }
  .formule-element{
   width: 100%;
@@ -401,6 +402,15 @@ padding: 0;
   font-size: 18px;
 }
 
+.App {
+  font-size: 24px;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
   /*AroundWedding*/
   .AroundWedding-title-main {
     font-size: 36px;
@@ -519,12 +529,10 @@ margin: 10px;
 
 /*modale*/
 .ReactModalPortal .modal {
-  
   padding: 15px;
   width: 80%;
-  
   height: 100%;
-  max-height: 650px;
+  max-height: 580px;
   margin: 0 auto;
 }
 .modal form{
