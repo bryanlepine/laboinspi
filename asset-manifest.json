@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/laboinspi/static/css/main.f5a64946.css",
+    "main.css": "/laboinspi/static/css/main.61caa452.css",
     "main.js": "/laboinspi/static/js/main.1b050c14.js",
     "static/media/weddingcakeshootingdolcevita-sarahduguephotographe42.jpeg": "/laboinspi/static/media/weddingcakeshootingdolcevita-sarahduguephotographe42.990eb322fc0a61b28d22.jpeg",
     "static/media/weddingcakeshootingdolcevita-sarahduguephotographe25.jpeg": "/laboinspi/static/media/weddingcakeshootingdolcevita-sarahduguephotographe25.469bc7ca584cc6033b44.jpeg",
@@ -34,11 +34,11 @@
     "static/media/slick.woff": "/laboinspi/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/laboinspi/index.html",
     "static/media/Separateur.svg": "/laboinspi/static/media/Separateur.a7e6da49846da559e259c1b54310ccb2.svg",
-    "main.f5a64946.css.map": "/laboinspi/static/css/main.f5a64946.css.map",
+    "main.61caa452.css.map": "/laboinspi/static/css/main.61caa452.css.map",
     "main.1b050c14.js.map": "/laboinspi/static/js/main.1b050c14.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5a64946.css",
+    "static/css/main.61caa452.css",
     "static/js/main.1b050c14.js"
   ]
 }
