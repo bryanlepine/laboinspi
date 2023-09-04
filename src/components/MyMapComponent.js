@@ -6,7 +6,7 @@ const citymap = {
     center: { lat: 47.2758, lng: -2.2137 },
   },
 };
-const markerPosition = { lat: 47.27249639427064, lng: -2.214256563918631 };
+
 
 const containerStyle = {
   width: '100%',
@@ -35,7 +35,7 @@ const MyMapComponent = () => {
           <Circle 
             key={city}
             center={citymap[city].center} 
-            radius={20000} 
+            radius={22000} 
             options={{ 
               strokeColor: "#C0C0C0",
               strokeOpacity: 0.8,
@@ -47,7 +47,7 @@ const MyMapComponent = () => {
         ))}
 
         {/* Ajouter un marqueur à l'emplacement spécifié */}
-        <Marker position={markerPosition} />
+        
       </GoogleMap>
     </LoadScript>
   );

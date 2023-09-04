@@ -1,7 +1,7 @@
 import React from "react";
 import "../css-styles/AllWedding.scss";
 import Image1 from "../images/formules/salleshootingdolcevita-sarahduguephotographe160.webp";
-import Image5 from "../images/weddingcakeshootingdolcevita-sarahduguephotographe42.jpeg";
+import Image5 from "../images/weddingcakeshootingdolcevita-sarahduguephotographe42.webp";
 import { AiOutlineCheckCircle } from "react-icons/ai";
 
 const AllWedding = () => {

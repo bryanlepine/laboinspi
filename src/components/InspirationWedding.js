@@ -1,11 +1,7 @@
 import React from 'react';
 import '../css-styles/InspirationWedding.scss';
 import ImageCoaching from '../images/formules/Décoration-table-coaching.webp';
-import ImageGalerie1 from '../images/formules/Décoration_cake.webp';
-import ImageGalerie2 from '../images/formules/Décoration_dolcevita.webp';
-import ImageGalerie3 from '../images/formules/Décoration_focus_table.webp';
-import ImageGalerie4 from '../images/formules/Décoration_biscuits.webp';
-import ImageGalerie5 from '../images/laurieetlauranneshootingdolcevita-sarahduguephotographe40.jpeg';
+import ImageGalerie5 from '../images/laurieetlauranneshootingdolcevita-sarahduguephotographe40.webp';
 import { AiOutlineCheckCircle } from 'react-icons/ai';
 
 

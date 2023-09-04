@@ -4,7 +4,7 @@ import ImagePrepare from '../images/formules/Prestataire_cocktail.webp';
 import ImageGalerie1 from '../images/formules/Décoration_plan_de_table.webp';
 import ImageGalerie2 from '../images/formules/Décoration_panneau.webp';
 import ImageGalerie3 from '../images/formules/Décoration_assietes.jpeg';
-import ImageGalerie4 from '../images/weddingcakeshootingdolcevita-sarahduguephotographe25.jpeg';
+import ImageGalerie4 from '../images/weddingcakeshootingdolcevita-sarahduguephotographe25.webp';
 import { AiOutlineCheckCircle } from 'react-icons/ai';
 
 
