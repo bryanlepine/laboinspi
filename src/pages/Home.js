@@ -12,6 +12,7 @@ import BackGround from "../components/BackGround";
 import Certifications from "../components/Certifications";
 import FormContact from "../components/FormContact";
 
+
 function Home() {
 
   return (
