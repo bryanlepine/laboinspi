@@ -8,16 +8,16 @@ import Image3 from '../images/formules/salleshootingdolcevita-sarahduguephotogra
 const PreviewFormules = () => {
     return (
         <div className="formules-wrapper">
-            <Link to="/laboinspi/FirstFormule" className='formule-element'>
+            <Link to="/FirstFormule" className='formule-element'>
                 <img src={Image1} className="formule-image" alt="table-photographie-design" />
                 <span className="formule-text">Formule Coaching</span>
             </Link>
 
-            <Link to="/laboinspi/SecondeFormule" className='formule-element'>
+            <Link to="/SecondeFormule" className='formule-element'>
                 <img src={Image2} className="formule-image" alt="cocktail-photographie-design" />
                 <span className="formule-text">Formule Préparatifs</span>
             </Link>
-            <Link to="/laboinspi/ThirdFormule" className='formule-element'>
+            <Link to="/ThirdFormule" className='formule-element'>
                 <img src={Image3} className="formule-image" alt="couple-photographie-wedding" />
                 <span className="formule-text">Formule Clé en main</span>
             </Link>

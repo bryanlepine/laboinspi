@@ -15,11 +15,11 @@ createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Router>
       <Routes>
-        <Route path="/laboinspi" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route element={<Navigate to="/" />} /> 
-        <Route path="/laboinspi/FirstFormule" element={<FirstFormule/>}/>
-        <Route path="/laboinspi/SecondeFormule" element={<SecondeFormule/>}/>
-        <Route path="/laboinspi/ThirdFormule" element={<ThirdFormule/>}/>
+        <Route path="/FirstFormule" element={<FirstFormule/>}/>
+        <Route path="/SecondeFormule" element={<SecondeFormule/>}/>
+        <Route path="/ThirdFormule" element={<ThirdFormule/>}/>
       </Routes>
     </Router>
   </React.StrictMode>

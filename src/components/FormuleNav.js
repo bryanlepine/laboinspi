@@ -9,9 +9,9 @@ const FormuleNav = () => {
   const currentPath = location.pathname;
 
   const formuleNames = {
-    "/laboinspi/FirstFormule": "Formule Coaching",
-    "/laboinspi/SecondeFormule": "Formule Préparatifs",
-    "/laboinspi/ThirdFormule": "Formule Clé en main",
+    "/FirstFormule": "Formule Coaching",
+    "/SecondeFormule": "Formule Préparatifs",
+    "/ThirdFormule": "Formule Clé en main",
   };
 
   const formules = Object.keys(formuleNames);
@@ -25,7 +25,7 @@ const FormuleNav = () => {
 
   return (
     <div className="formules-navigation">
-     <Link to="/laboinspi" className="home-link">
+     <Link to="/" className="home-link">
         Page d'accueil
       </Link> 
    <Link to={formules[prevIndex]} className="arrow-button">

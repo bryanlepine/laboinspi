@@ -31,10 +31,10 @@ const MyFormModal = () => {
   };
 
   const formuleValues = {
-    "/laboinspi": "Formule personnalisée",
-    "/laboinspi/FirstFormule": "Formule coaching",
-    "/laboinspi/SecondeFormule": "Formule préparatifs",
-    "/laboinspi/ThirdFormule": "Formule clé en main",
+    "/": "Formule personnalisée",
+    "/FirstFormule": "Formule coaching",
+    "/SecondeFormule": "Formule préparatifs",
+    "/ThirdFormule": "Formule clé en main",
   };
   const currentFormule = formuleValues[window.location.pathname] || "";
   const formuleOptions = Object.values(formuleValues);
